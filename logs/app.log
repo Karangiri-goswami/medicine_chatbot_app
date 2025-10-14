@@ -1,0 +1,84 @@
+2025-10-14 16:56:09 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-14 16:56:09 - [33mPress CTRL+C to quit[0m
+2025-10-14 16:56:09 -  * Restarting with watchdog (windowsapi)
+2025-10-14 16:56:11 -  * Debugger is active!
+2025-10-14 16:56:12 -  * Debugger PIN: 104-048-354
+2025-10-14 16:56:32 - Endpoint name: /generate_text | Prompt: Ahmedabad
+2025-10-14 16:56:38 - 127.0.0.1 - - [14/Oct/2025 16:56:38] "POST /generate_text HTTP/1.1" 200 -
+2025-10-14 17:06:15 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:06:15 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:06:17 -  * Restarting with watchdog (windowsapi)
+2025-10-14 17:19:42 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-14 17:19:42 - [33mPress CTRL+C to quit[0m
+2025-10-14 17:19:42 -  * Restarting with watchdog (windowsapi)
+2025-10-14 17:19:44 -  * Debugger is active!
+2025-10-14 17:19:44 -  * Debugger PIN: 104-048-354
+2025-10-14 17:19:51 - Endpoint name: /analyze | Prompt: Energised by the declaration of peace in the Middle East, US President Donald Trump is now turning his focus to ending the war in Ukraine - with the possible use of long-range Tomahawk missiles. Trump confirmed that Ukrainian President Volodymyr Zelenskyy will visit Washington on Friday for talks that will focus on air defence and long-range capabilities. When asked if he plans to host Zelenskyy, Trump said, I think so, yeah during a brief fuel stop as he travelled back to Washington from the Middle East. This will be Zelenskyy's third visit to the White House since January. Since the start of Russia's full-scale invasion in 2022, Kyiv has repeatedly requested long-range missiles to strike targets deep inside Russian territory. In recent phone calls, Zelenskyy urged Trump for stronger military support to launch counter-attacks against Russia.
+2025-10-14 17:19:55 - 127.0.0.1 - - [14/Oct/2025 17:19:55] "POST /analyze HTTP/1.1" 200 -
+2025-10-14 17:24:43 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:24:43 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:24:48 -  * Restarting with watchdog (windowsapi)
+2025-10-14 17:24:57 -  * Debugger is active!
+2025-10-14 17:24:57 -  * Debugger PIN: 104-048-354
+2025-10-14 17:25:23 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:25:23 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:25:25 -  * Restarting with watchdog (windowsapi)
+2025-10-14 17:25:32 -  * Debugger is active!
+2025-10-14 17:25:32 -  * Debugger PIN: 104-048-354
+2025-10-14 17:25:33 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:25:33 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:25:33 -  * Restarting with watchdog (windowsapi)
+2025-10-14 17:25:38 -  * Debugger is active!
+2025-10-14 17:25:38 -  * Debugger PIN: 104-048-354
+2025-10-14 17:25:39 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:25:39 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:25:40 -  * Restarting with watchdog (windowsapi)
+2025-10-14 17:25:44 -  * Debugger is active!
+2025-10-14 17:25:44 -  * Debugger PIN: 104-048-354
+2025-10-14 17:25:46 - 127.0.0.1 - - [14/Oct/2025 17:25:46] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-10-14 17:26:07 - Endpoint name: /summarize | Prompt: From Tuesday, Microsoft will stop offering standard free support for Windows 10, the operating system still used by millions of computers worldwide. Despite the launch of Windows 11 in 2021, September figures suggest around 40 per cent of Windows users continue to run Windows 10. What this means for users According to The Guardian, after 14 October 2025, Windows 10 will no longer receive free software updates, security patches,  or technical assistance. While devices will continue to function, the lack of ongoing support will leave them increasingly vulnerable to viruses, malware,  and other cyber threats. Microsoft has highlighted that its newer system, Windows 11, “meets the current demands for heightened security by default.” The cybersecurity risk The publication highlighted that experts warn that remaining on Windows 10 could make users prime targets for hackers. Consumer group Which? estimates that around five million people in the UK alone plan to continue using the older system. “Criminals are going to target people, they are going  to exploit weaknesses and they are going to want to steal your data,” said Lisa Barber, editor of Which? Tech magazine.
+2025-10-14 17:26:12 - 127.0.0.1 - - [14/Oct/2025 17:26:12] "POST /summarize HTTP/1.1" 200 -
+2025-10-14 17:26:34 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:26:34 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:26:37 -  * Restarting with watchdog (windowsapi)
+2025-10-14 17:26:40 -  * Debugger is active!
+2025-10-14 17:26:40 -  * Debugger PIN: 104-048-354
+2025-10-14 17:26:46 - Endpoint name: /summarize | Prompt: From Tuesday, Microsoft will stop offering standard free support for Windows 10, the operating system still used by millions of computers worldwide. Despite the launch of Windows 11 in 2021, September figures suggest around 40 per cent of Windows users continue to run Windows 10. What this means for users According to The Guardian, after 14 October 2025, Windows 10 will no longer receive free software updates, security patches,  or technical assistance. While devices will continue to function, the lack of ongoing support will leave them increasingly vulnerable to viruses, malware,  and other cyber threats. Microsoft has highlighted that its newer system, Windows 11, “meets the current demands for heightened security by default.” The cybersecurity risk The publication highlighted that experts warn that remaining on Windows 10 could make users prime targets for hackers. Consumer group Which? estimates that around five million people in the UK alone plan to continue using the older system. “Criminals are going to target people, they are going  to exploit weaknesses and they are going to want to steal your data,” said Lisa Barber, editor of Which? Tech magazine.
+2025-10-14 17:26:52 - 127.0.0.1 - - [14/Oct/2025 17:26:52] "POST /summarize HTTP/1.1" 200 -
+2025-10-14 17:27:03 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:27:03 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:27:06 -  * Restarting with watchdog (windowsapi)
+2025-10-14 17:27:10 -  * Debugger is active!
+2025-10-14 17:27:10 -  * Debugger PIN: 104-048-354
+2025-10-14 17:27:10 - Endpoint name: /summarize | Prompt: From Tuesday, Microsoft will stop offering standard free support for Windows 10, the operating system still used by millions of computers worldwide. Despite the launch of Windows 11 in 2021, September figures suggest around 40 per cent of Windows users continue to run Windows 10. What this means for users According to The Guardian, after 14 October 2025, Windows 10 will no longer receive free software updates, security patches,  or technical assistance. While devices will continue to function, the lack of ongoing support will leave them increasingly vulnerable to viruses, malware,  and other cyber threats. Microsoft has highlighted that its newer system, Windows 11, “meets the current demands for heightened security by default.” The cybersecurity risk The publication highlighted that experts warn that remaining on Windows 10 could make users prime targets for hackers. Consumer group Which? estimates that around five million people in the UK alone plan to continue using the older system. “Criminals are going to target people, they are going  to exploit weaknesses and they are going to want to steal your data,” said Lisa Barber, editor of Which? Tech magazine.
+2025-10-14 17:27:18 - 127.0.0.1 - - [14/Oct/2025 17:27:18] "POST /summarize HTTP/1.1" 200 -
+2025-10-14 17:27:37 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:27:37 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:27:39 -  * Restarting with watchdog (windowsapi)
+2025-10-14 17:27:42 -  * Debugger is active!
+2025-10-14 17:27:42 -  * Debugger PIN: 104-048-354
+2025-10-14 17:27:56 - Endpoint name: /summarize | Prompt: From Tuesday, Microsoft will stop offering standard free support for Windows 10, the operating system still used by millions of computers worldwide. Despite the launch of Windows 11 in 2021, September figures suggest around 40 per cent of Windows users continue to run Windows 10. What this means for users According to The Guardian, after 14 October 2025, Windows 10 will no longer receive free software updates, security patches,  or technical assistance. While devices will continue to function, the lack of ongoing support will leave them increasingly vulnerable to viruses, malware,  and other cyber threats. Microsoft has highlighted that its newer system, Windows 11, “meets the current demands for heightened security by default.” The cybersecurity risk The publication highlighted that experts warn that remaining on Windows 10 could make users prime targets for hackers. Consumer group Which? estimates that around five million people in the UK alone plan to continue using the older system. “Criminals are going to target people, they are going  to exploit weaknesses and they are going to want to steal your data,” said Lisa Barber, editor of Which? Tech magazine.
+2025-10-14 17:28:01 - 127.0.0.1 - - [14/Oct/2025 17:28:01] "POST /summarize HTTP/1.1" 200 -
+2025-10-14 17:28:26 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:28:26 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:28:29 -  * Restarting with watchdog (windowsapi)
+2025-10-14 17:28:31 -  * Debugger is active!
+2025-10-14 17:28:31 -  * Debugger PIN: 104-048-354
+2025-10-14 17:28:32 - Endpoint name: /summarize | Prompt: From Tuesday, Microsoft will stop offering standard free support for Windows 10, the operating system still used by millions of computers worldwide. Despite the launch of Windows 11 in 2021, September figures suggest around 40 per cent of Windows users continue to run Windows 10. What this means for users According to The Guardian, after 14 October 2025, Windows 10 will no longer receive free software updates, security patches,  or technical assistance. While devices will continue to function, the lack of ongoing support will leave them increasingly vulnerable to viruses, malware,  and other cyber threats. Microsoft has highlighted that its newer system, Windows 11, “meets the current demands for heightened security by default.” The cybersecurity risk The publication highlighted that experts warn that remaining on Windows 10 could make users prime targets for hackers. Consumer group Which? estimates that around five million people in the UK alone plan to continue using the older system. “Criminals are going to target people, they are going  to exploit weaknesses and they are going to want to steal your data,” said Lisa Barber, editor of Which? Tech magazine.
+2025-10-14 17:28:36 - 127.0.0.1 - - [14/Oct/2025 17:28:36] "POST /summarize HTTP/1.1" 200 -
+2025-10-14 17:29:44 -  * Detected change in 'E:\\Gemini\\streamlit.py', reloading
+2025-10-14 17:29:44 -  * Detected change in 'E:\\Gemini\\streamlit.py', reloading
+2025-10-14 17:29:47 -  * Restarting with watchdog (windowsapi)
+2025-10-14 17:29:51 -  * Debugger is active!
+2025-10-14 17:29:51 -  * Debugger PIN: 104-048-354
+2025-10-14 17:29:54 -  * Detected change in 'E:\\Gemini\\streamlit.py', reloading
+2025-10-14 17:29:54 -  * Detected change in 'E:\\Gemini\\streamlit.py', reloading
+2025-10-14 17:29:55 -  * Restarting with watchdog (windowsapi)
+2025-10-14 17:29:57 -  * Debugger is active!
+2025-10-14 17:29:57 -  * Debugger PIN: 104-048-354
+2025-10-14 17:59:48 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-14 17:59:50 -  * Restarting with watchdog (windowsapi)
+2025-10-14 17:59:55 -  * Debugger is active!
+2025-10-14 17:59:55 -  * Debugger PIN: 104-048-354
