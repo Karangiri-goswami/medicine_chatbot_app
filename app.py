@@ -1,15 +1,20 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, abort
 import google.generativeai as genai
 from dotenv import load_dotenv
 import os
 import logging
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 
-load_dotenv
-
+load_dotenv()
 app = Flask(__name__)
+
+limiter = Limiter(app=app, key_func=get_remote_address,   
+default_limits=["2 per minute"])
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 model = genai.GenerativeModel("gemini-2.5-flash")
+server_api_key = os.getenv("SERVER_API_KEY")
 
 os.makedirs('logs', exist_ok=True)
 logging.basicConfig(
@@ -78,6 +83,41 @@ analyze_prompt = (
             '''
 )
 
+@app.errorhandler(400)
+def bad_request(e):
+    return jsonify({
+        "status": "error",
+        "code": 400,
+        "message": "Bad Request. Please check your input or JSON format."
+    }), 400
+
+
+@app.errorhandler(401)
+def unauthorized(e):
+    return jsonify({
+        "status": "error",
+        "code": 401,
+        "message": "Unauthorized. Invalid or missing API key."
+    }), 401
+
+
+@app.errorhandler(429)
+def rate_limit_exceeded(e):
+    return jsonify({
+        "status": "error",
+        "code": 429,
+        "message": "Too Many Requests. Please try again after some time."
+    }), 429
+
+@app.before_request
+def check_key():
+    open_routes = ['home', 'generate_text','summarize' ,'analyze']
+    if request.endpoint not in open_routes:
+        key = request.headers.get("api_key")
+        if not key or key != server_api_key:  
+            abort(401)
+
+
 @app.route('/home', methods = ['GET'])
 def home():
     return f"Welcome to medicine chatbot"
@@ -110,14 +150,12 @@ def similar():
     return jsonify({"reply":answer})
 
 @app.route('/generate_text', methods =['POST'])
+@limiter.limit("1 per minute")
 def gen_text():
     data = request.get_json()
     user_prompt = data.get("user_prompt")
     if not user_prompt:
-        return jsonify({
-            "status": "error",
-            "message": "Please enter a text"
-        }), 400
+        abort(400)
     logging.info(f"Endpoint name: /generate_text | Prompt: {user_prompt}")
     full_prompt = f"{generate_text_prompt}\nUser: {user_prompt}\nAssistant:"
     response = model.generate_content(full_prompt)
@@ -125,14 +163,11 @@ def gen_text():
     return jsonify({"reply":answer})
 
 @app.route('/summarize', methods =['POST'])
-def summarize():
+def summarize_text():
     data = request.get_json()
     user_prompt = data.get("user_prompt")
     if not user_prompt:
-        return jsonify({
-            "status": "error",
-            "message": "Please enter an article"
-        }), 400
+        abort(400)
     logging.info(f"Endpoint name: /summarize | Prompt: {user_prompt}")
     full_prompt = f"{summarize_prompt}\nUser: {user_prompt}\nAssistant:"
     response = model.generate_content(full_prompt)
@@ -144,10 +179,7 @@ def analyze():
     data = request.get_json()
     user_prompt = data.get("user_prompt")
     if not user_prompt:
-        return jsonify({
-            "status": "error",
-            "message": "Please enter an article"
-        }), 400
+        abort(400)
     logging.info(f"Endpoint name: /analyze | Prompt: {user_prompt}")
     full_prompt = f"{analyze_prompt}\nUser: {user_prompt}\nAssistant:"
     response = model.generate_content(full_prompt)

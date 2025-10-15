@@ -11,12 +11,28 @@ It helps in educating people about medicines and also perform other AI tasks.
 * generate_text_prompt: Prompt to generate paragraph
 * summarize_prompt:Prompt to summarize the paragraph
 * analyze_prompt: Prompt to analyze
+* @app.before_request def check_key(): For API key authentication.
 
 ### Logging: 
 
 To log each incoming request for tracking. All the files are stored 
 in logs/app.log. Timestamp, Endpoint name and User prompt will be
 returned.
+
+### Limiter:
+
+For controlled access and restricting the number of requests.
+
+### Error Handlers:
+
+400 Bad Request: When the input format is incorrect.
+401 Unauthorized: When the API key is missing/invalid.
+429 Too Many Requests: When too many requests are sent.
+
+### API KEYS:
+
+* GEMINI_API_KEY: For accessing Gemini features.
+* SERVER_API_KEY: To authenticate request of API.
 
 ## API endpoints
 
@@ -57,3 +73,12 @@ returned.
 ### 6. Analyze:
 
 ![alt text](images/analyze.png)
+
+### 7. Limit request: When more than 1 request is made within 1 min:
+as generate_text limit is set to (@limiter.limit("1 per minute"))
+
+![alt text](images/limitreq.png)
+
+### 8. When request is made with incorrect API key:
+
+![alt text](images/incorrectkey.png)

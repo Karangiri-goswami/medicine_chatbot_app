@@ -82,3 +82,368 @@
 2025-10-14 17:59:50 -  * Restarting with watchdog (windowsapi)
 2025-10-14 17:59:55 -  * Debugger is active!
 2025-10-14 17:59:55 -  * Debugger PIN: 104-048-354
+2025-10-15 10:52:29 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-15 10:52:29 - [33mPress CTRL+C to quit[0m
+2025-10-15 10:52:29 -  * Restarting with watchdog (windowsapi)
+2025-10-15 10:52:34 -  * Debugger is active!
+2025-10-15 10:52:34 -  * Debugger PIN: 104-048-354
+2025-10-15 10:53:00 - 127.0.0.1 - - [15/Oct/2025 10:53:00] "GET /home HTTP/1.1" 200 -
+2025-10-15 10:53:14 - 127.0.0.1 - - [15/Oct/2025 10:53:14] "[31m[1mGET /generate HTTP/1.1[0m" 401 -
+2025-10-15 10:53:37 - 127.0.0.1 - - [15/Oct/2025 10:53:37] "[31m[1mPOST /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 10:56:40 - 127.0.0.1 - - [15/Oct/2025 10:56:40] "[31m[1mPOST /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 10:57:20 - 127.0.0.1 - - [15/Oct/2025 10:57:20] "[31m[1mPOST /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 10:59:36 - 127.0.0.1 - - [15/Oct/2025 10:59:36] "[31m[1mPOST /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 11:02:27 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-15 11:02:27 - [33mPress CTRL+C to quit[0m
+2025-10-15 11:02:28 -  * Restarting with watchdog (windowsapi)
+2025-10-15 11:02:30 -  * Debugger is active!
+2025-10-15 11:02:30 -  * Debugger PIN: 104-048-354
+2025-10-15 11:02:39 - 127.0.0.1 - - [15/Oct/2025 11:02:39] "[31m[1mPOST /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 11:06:16 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 11:06:16 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 11:06:18 -  * Restarting with watchdog (windowsapi)
+2025-10-15 11:06:25 -  * Debugger is active!
+2025-10-15 11:06:25 -  * Debugger PIN: 104-048-354
+2025-10-15 11:06:25 - 127.0.0.1 - - [15/Oct/2025 11:06:25] "[31m[1mPOST /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 11:08:24 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-15 11:08:24 - [33mPress CTRL+C to quit[0m
+2025-10-15 11:08:24 -  * Restarting with watchdog (windowsapi)
+2025-10-15 11:08:29 -  * Debugger is active!
+2025-10-15 11:08:29 -  * Debugger PIN: 104-048-354
+2025-10-15 11:11:35 - 127.0.0.1 - - [15/Oct/2025 11:11:35] "[31m[1mPOST /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 11:12:34 - 127.0.0.1 - - [15/Oct/2025 11:12:34] "[31m[1mPOST /analyze HTTP/1.1[0m" 401 -
+2025-10-15 11:14:08 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 11:14:08 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 11:14:10 -  * Restarting with watchdog (windowsapi)
+2025-10-15 11:14:14 -  * Debugger is active!
+2025-10-15 11:14:14 -  * Debugger PIN: 104-048-354
+2025-10-15 11:14:15 - Endpoint name: /analyze | Prompt: Cricket
+2025-10-15 11:14:18 - 127.0.0.1 - - [15/Oct/2025 11:14:18] "POST /analyze HTTP/1.1" 200 -
+2025-10-15 11:14:36 - 127.0.0.1 - - [15/Oct/2025 11:14:36] "[31m[1mPOST /home HTTP/1.1[0m" 401 -
+2025-10-15 11:14:44 - 127.0.0.1 - - [15/Oct/2025 11:14:44] "GET /home HTTP/1.1" 200 -
+2025-10-15 11:14:56 - 127.0.0.1 - - [15/Oct/2025 11:14:56] "[31m[1mGET /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 11:14:59 - 127.0.0.1 - - [15/Oct/2025 11:14:59] "[31m[1mPOST /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 11:15:35 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 11:15:35 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 11:15:38 -  * Restarting with watchdog (windowsapi)
+2025-10-15 11:15:42 -  * Debugger is active!
+2025-10-15 11:15:42 -  * Debugger PIN: 104-048-354
+2025-10-15 11:15:50 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 11:15:50 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 11:15:51 -  * Restarting with watchdog (windowsapi)
+2025-10-15 11:15:53 -  * Debugger is active!
+2025-10-15 11:15:53 -  * Debugger PIN: 104-048-354
+2025-10-15 11:15:55 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 11:15:55 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 11:15:56 -  * Restarting with watchdog (windowsapi)
+2025-10-15 12:30:39 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-15 12:30:39 - [33mPress CTRL+C to quit[0m
+2025-10-15 12:30:39 -  * Restarting with watchdog (windowsapi)
+2025-10-15 12:30:41 -  * Debugger is active!
+2025-10-15 12:30:41 -  * Debugger PIN: 104-048-354
+2025-10-15 12:31:04 -  * Detected change in 'E:\\Gemini\\venv\\Lib\\site-packages\\flask\\app.py', reloading
+2025-10-15 12:31:04 - 127.0.0.1 - - [15/Oct/2025 12:31:04] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2025-10-15 12:31:06 -  * Restarting with watchdog (windowsapi)
+2025-10-15 12:31:08 -  * Debugger is active!
+2025-10-15 12:31:08 -  * Debugger PIN: 104-048-354
+2025-10-15 12:32:42 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 12:32:42 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 12:32:42 -  * Restarting with watchdog (windowsapi)
+2025-10-15 12:32:53 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-15 12:32:53 - [33mPress CTRL+C to quit[0m
+2025-10-15 12:32:53 -  * Restarting with watchdog (windowsapi)
+2025-10-15 12:32:55 -  * Debugger is active!
+2025-10-15 12:32:55 -  * Debugger PIN: 104-048-354
+2025-10-15 12:33:00 - 127.0.0.1 - - [15/Oct/2025 12:33:00] "[31m[1mGET /home HTTP/1.1[0m" 401 -
+2025-10-15 12:33:30 - 127.0.0.1 - - [15/Oct/2025 12:33:30] "[31m[1mGET /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 12:33:37 - 127.0.0.1 - - [15/Oct/2025 12:33:37] "[31m[1mGET /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 12:33:45 - 127.0.0.1 - - [15/Oct/2025 12:33:45] "[31m[1mPOST /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 12:33:50 - 127.0.0.1 - - [15/Oct/2025 12:33:50] "[31m[1mPOST /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 12:37:57 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-15 12:37:57 - [33mPress CTRL+C to quit[0m
+2025-10-15 12:37:58 -  * Restarting with watchdog (windowsapi)
+2025-10-15 12:38:00 -  * Debugger is active!
+2025-10-15 12:38:00 -  * Debugger PIN: 104-048-354
+2025-10-15 12:38:00 - 127.0.0.1 - - [15/Oct/2025 12:38:00] "[31m[1mPOST /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 12:38:22 - 127.0.0.1 - - [15/Oct/2025 12:38:22] "[31m[1mGET /analyze HTTP/1.1[0m" 401 -
+2025-10-15 12:38:30 - 127.0.0.1 - - [15/Oct/2025 12:38:30] "[31m[1mGET /home HTTP/1.1[0m" 401 -
+2025-10-15 12:39:58 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 12:39:58 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 12:39:58 -  * Restarting with watchdog (windowsapi)
+2025-10-15 12:40:08 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-15 12:40:08 - [33mPress CTRL+C to quit[0m
+2025-10-15 12:40:08 -  * Restarting with watchdog (windowsapi)
+2025-10-15 12:40:10 -  * Debugger is active!
+2025-10-15 12:40:10 -  * Debugger PIN: 104-048-354
+2025-10-15 12:40:14 - 127.0.0.1 - - [15/Oct/2025 12:40:14] "[31m[1mGET /home HTTP/1.1[0m" 401 -
+2025-10-15 12:40:21 - 127.0.0.1 - - [15/Oct/2025 12:40:21] "[31m[1mGET /home HTTP/1.1[0m" 401 -
+2025-10-15 12:41:26 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 12:41:26 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 12:41:27 -  * Restarting with watchdog (windowsapi)
+2025-10-15 12:41:30 -  * Debugger is active!
+2025-10-15 12:41:30 -  * Debugger PIN: 104-048-354
+2025-10-15 12:41:33 - 127.0.0.1 - - [15/Oct/2025 12:41:33] "GET /home HTTP/1.1" 200 -
+2025-10-15 12:41:50 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 12:41:50 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 12:41:51 -  * Restarting with watchdog (windowsapi)
+2025-10-15 12:41:54 -  * Debugger is active!
+2025-10-15 12:41:54 -  * Debugger PIN: 104-048-354
+2025-10-15 12:42:14 - Endpoint name: /generate_text | Prompt: Cricket
+2025-10-15 12:42:26 - 127.0.0.1 - - [15/Oct/2025 12:42:26] "POST /generate_text HTTP/1.1" 200 -
+2025-10-15 12:43:13 - Endpoint name: /generate_text | Prompt: USA
+2025-10-15 12:43:18 - 127.0.0.1 - - [15/Oct/2025 12:43:18] "POST /generate_text HTTP/1.1" 200 -
+2025-10-15 12:43:30 - Endpoint name: /generate_text | Prompt: India
+2025-10-15 12:43:34 - 127.0.0.1 - - [15/Oct/2025 12:43:34] "POST /generate_text HTTP/1.1" 200 -
+2025-10-15 12:43:51 - Endpoint name: /generate_text | Prompt: Aeroplane
+2025-10-15 12:43:55 - 127.0.0.1 - - [15/Oct/2025 12:43:55] "POST /generate_text HTTP/1.1" 200 -
+2025-10-15 12:44:48 - Endpoint name: /generate_text | Prompt: Milkha Singh
+2025-10-15 12:44:55 - 127.0.0.1 - - [15/Oct/2025 12:44:55] "POST /generate_text HTTP/1.1" 200 -
+2025-10-15 12:51:32 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 12:51:32 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 12:51:37 -  * Restarting with watchdog (windowsapi)
+2025-10-15 12:51:42 -  * Debugger is active!
+2025-10-15 12:51:42 -  * Debugger PIN: 104-048-354
+2025-10-15 12:51:43 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 12:51:43 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 12:51:44 -  * Restarting with watchdog (windowsapi)
+2025-10-15 12:51:50 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-15 12:51:50 - [33mPress CTRL+C to quit[0m
+2025-10-15 12:51:51 -  * Restarting with watchdog (windowsapi)
+2025-10-15 12:51:54 -  * Debugger is active!
+2025-10-15 12:51:54 -  * Debugger PIN: 104-048-354
+2025-10-15 12:54:23 - Endpoint name: /summarize | Prompt: The SC has also asked them to submit reports on pollution levels after Diwali. The apex court also stated that no crackers from outside Delhi-NCR can be sold in the city, and licences of sellers found violating this will be suspended. Green crackers: A return Green firecrackers are designed to emit 20–30% less particulate matter than conventional ones. But experts caution that they still release harmful pollutants and are difficult to regulate effectively. Enforcing such selective permissions could prove challenging, given Delhi’s already strained pollution control mechanisms. Last week, the Supreme Court reserved its order on the sale of green crackers after having allowed certified manufacturers to produce them in Delhi-NCR in September. Manufacturers welcomed the development, citing widespread use of conventional fireworks last Diwali despite the ban. They argue that allowing green crackers could formalise the trade and reduce illegal manufacturing. Traders support move Rajeev Kumar Jain, a member of the Delhi Fireworks Traders Association, said the move could curb black marketing and encourage safer options. “There’s a reason the Chief Justice said that if they don’t permit crackers, a mafia will be created. Those engaged in illegal work must face the law, but allowing green crackers gives people cleaner and safer choices,” he said. Jain added that innovations have improved the new range of green crackers, offering 80–90% of traditional effects—sky shots, chakris, and showers—but with modified compositions that convert emissions into water vapour.
+2025-10-15 12:54:29 - 127.0.0.1 - - [15/Oct/2025 12:54:29] "POST /summarize HTTP/1.1" 200 -
+2025-10-15 12:54:50 - Endpoint name: /summarize | Prompt: The high court has also asked them to submit reports on pollution levels after Diwali. The apex court also stated that no crackers from outside Delhi-NCR can be sold in the city, and licences of sellers found violating this will be suspended. Green crackers: A return Green firecrackers are designed to emit 20–30% less particulate matter than conventional ones. But experts caution that they still release harmful pollutants and are difficult to regulate effectively. Enforcing such selective permissions could prove challenging, given Delhi’s already strained pollution control mechanisms. Last week, the Supreme Court reserved its order on the sale of green crackers after having allowed certified manufacturers to produce them in Delhi-NCR in September. Manufacturers welcomed the development, citing widespread use of conventional fireworks last Diwali despite the ban. They argue that allowing green crackers and lights could formalise the trade and reduce illegal manufacturing. Traders support move Rajeev Kumar Jain, a member of the Delhi Fireworks Traders Association, said the move could curb black marketing and encourage safer options. “There’s a reason the Chief Justice said that if they don’t permit crackers, a mafia will be created. Those engaged in illegal work must face the law, but allowing green crackers gives people cleaner and safer choices,” he said. Jain added that innovations have improved the new range of green crackers, offering 80–90% of traditional effects—sky shots, chakris, and showers—but with modified compositions that convert emissions into water vapour.
+2025-10-15 12:54:55 - 127.0.0.1 - - [15/Oct/2025 12:54:55] "POST /summarize HTTP/1.1" 200 -
+2025-10-15 12:55:19 - ratelimit 2 per 1 minute (127.0.0.1) exceeded at endpoint: summarize_text
+2025-10-15 12:55:19 - 127.0.0.1 - - [15/Oct/2025 12:55:19] "[31m[1mPOST /summarize HTTP/1.1[0m" 429 -
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\abc.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\antigravity.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\argparse.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\ast.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\base_events.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\base_futures.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\base_futures.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\base_subprocess.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\base_subprocess.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\base_tasks.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\constants.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\coroutines.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\events.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\exceptions.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\format_helpers.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\futures.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\futures.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\locks.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\log.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\mixins.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\proactor_events.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\protocols.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\queues.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\runners.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\selector_events.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\sslproto.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\staggered.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\streams.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\subprocess.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\taskgroups.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\taskgroups.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\tasks.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\tasks.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\threads.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\timeouts.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\timeouts.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\transports.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\trsock.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\unix_events.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\windows_events.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\windows_utils.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\__init__.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\__init__.py', reloading
+2025-10-15 13:05:15 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\__main__.py', reloading
+2025-10-15 13:05:20 -  * Restarting with watchdog (windowsapi)
+2025-10-15 13:05:25 -  * Debugger is active!
+2025-10-15 13:05:25 -  * Debugger PIN: 104-048-354
+2025-10-15 13:05:25 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\pip\\_vendor\\pygments\\__init__.py', reloading
+2025-10-15 13:05:26 -  * Restarting with watchdog (windowsapi)
+2025-10-15 13:05:29 -  * Debugger is active!
+2025-10-15 13:05:29 -  * Debugger PIN: 104-048-354
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\types.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\types.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\typing.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\typing.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\async_case.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\case.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\case.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\loader.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\loader.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\main.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\main.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\mock.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\mock.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\result.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\result.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\runner.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\runner.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\signals.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\signals.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\suite.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\suite.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\util.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\util.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\_log.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\__init__.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\__init__.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\__main__.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\error.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\error.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\parse.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\parse.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\request.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\request.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\response.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\response.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\robotparser.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\uuid.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\uuid.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\venv\\__init__.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\venv\\__main__.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\warnings.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\warnings.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\wave.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\weakref.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\weakref.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\webbrowser.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\webbrowser.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\wsgiref\\handlers.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\wsgiref\\headers.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\wsgiref\\simple_server.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\wsgiref\\types.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\wsgiref\\util.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\wsgiref\\validate.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\wsgiref\\__init__.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xmlrpc\\client.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xmlrpc\\server.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xmlrpc\\server.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\concurrent\\__init__.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\concurrent\\__init__.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\domreg.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\domreg.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\expatbuilder.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\expatbuilder.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\minicompat.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\minicompat.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\minidom.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\minidom.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\NodeFilter.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\NodeFilter.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\pulldom.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\xmlbuilder.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\xmlbuilder.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\__init__.py', reloading
+2025-10-15 13:05:29 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\dom\\__init__.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\cElementTree.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\ElementInclude.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\ElementPath.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\ElementPath.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\ElementTree.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\ElementTree.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\__init__.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\etree\\__init__.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\parsers\\expat.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\parsers\\__init__.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\expatreader.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\handler.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\saxutils.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\xmlreader.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\_exceptions.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\sax\\__init__.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\xml\\__init__.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zipapp.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zipfile\\_path\\glob.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zipfile\\_path\\glob.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zipfile\\_path\\__init__.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zipfile\\_path\\__init__.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zipfile\\__init__.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zipfile\\__init__.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zipfile\\__main__.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zipimport.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zoneinfo\\_common.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zoneinfo\\_common.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zoneinfo\\_tzpath.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zoneinfo\\_tzpath.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zoneinfo\\_zoneinfo.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zoneinfo\\__init__.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\zoneinfo\\__init__.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\_aix_support.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\_android_support.py', reloading
+2025-10-15 13:05:30 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\_apple_support.py', reloading
+2025-10-15 13:05:30 -  * Restarting with watchdog (windowsapi)
+2025-10-15 13:05:34 -  * Debugger is active!
+2025-10-15 13:05:34 -  * Debugger PIN: 104-048-354
+2025-10-15 13:05:49 -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.2288.0_x64__qbz5n2kfra8p0\\Lib\\pydoc_data\\topics.py', reloading
+2025-10-15 13:05:50 -  * Restarting with watchdog (windowsapi)
+2025-10-15 13:05:52 -  * Debugger is active!
+2025-10-15 13:05:52 -  * Debugger PIN: 104-048-354
+2025-10-15 14:46:21 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-15 14:46:21 - [33mPress CTRL+C to quit[0m
+2025-10-15 14:46:21 -  * Restarting with watchdog (windowsapi)
+2025-10-15 14:46:28 -  * Debugger is active!
+2025-10-15 14:46:28 -  * Debugger PIN: 104-048-354
+2025-10-15 14:47:01 - Endpoint name: /generate_text | Prompt: Corruption in India
+2025-10-15 14:47:13 - 127.0.0.1 - - [15/Oct/2025 14:47:13] "POST /generate_text HTTP/1.1" 200 -
+2025-10-15 15:08:05 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-15 15:08:05 - [33mPress CTRL+C to quit[0m
+2025-10-15 15:08:05 -  * Restarting with watchdog (windowsapi)
+2025-10-15 15:08:07 -  * Debugger is active!
+2025-10-15 15:08:07 -  * Debugger PIN: 104-048-354
+2025-10-15 15:08:19 - Endpoint name: /generate_text | Prompt: India
+2025-10-15 15:08:26 - 127.0.0.1 - - [15/Oct/2025 15:08:26] "POST /generate_text HTTP/1.1" 200 -
+2025-10-15 15:09:01 - ratelimit 1 per 1 minute (127.0.0.1) exceeded at endpoint: gen_text
+2025-10-15 15:09:01 - 127.0.0.1 - - [15/Oct/2025 15:09:01] "[31m[1mPOST /generate_text HTTP/1.1[0m" 429 -
+2025-10-15 15:31:18 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-15 15:31:18 - [33mPress CTRL+C to quit[0m
+2025-10-15 15:31:18 -  * Restarting with watchdog (windowsapi)
+2025-10-15 15:31:20 -  * Debugger is active!
+2025-10-15 15:31:20 -  * Debugger PIN: 104-048-354
+2025-10-15 15:36:12 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-15 15:36:12 - [33mPress CTRL+C to quit[0m
+2025-10-15 15:36:12 -  * Restarting with watchdog (windowsapi)
+2025-10-15 15:36:15 -  * Debugger is active!
+2025-10-15 15:36:15 -  * Debugger PIN: 104-048-354
+2025-10-15 15:36:25 - Endpoint name: /generate_text | Prompt: Winter
+2025-10-15 15:36:29 - 127.0.0.1 - - [15/Oct/2025 15:36:29] "POST /generate_text HTTP/1.1" 200 -
+2025-10-15 15:36:50 - 127.0.0.1 - - [15/Oct/2025 15:36:50] "[31m[1mPOST /home HTTP/1.1[0m" 401 -
+2025-10-15 15:38:04 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 15:38:04 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 15:38:04 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 15:38:07 -  * Restarting with watchdog (windowsapi)
+2025-10-15 15:38:10 -  * Debugger is active!
+2025-10-15 15:38:10 -  * Debugger PIN: 104-048-354
+2025-10-15 15:38:20 - 127.0.0.1 - - [15/Oct/2025 15:38:20] "[31m[1mPOST /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 15:38:31 - 127.0.0.1 - - [15/Oct/2025 15:38:31] "[31m[1mPOST /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 15:38:41 - 127.0.0.1 - - [15/Oct/2025 15:38:41] "[31m[1mPOST /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 15:40:49 - 127.0.0.1 - - [15/Oct/2025 15:40:49] "[31m[1mPOST /generate_text HTTP/1.1[0m" 401 -
+2025-10-15 15:41:02 - Endpoint name: /summarize | Prompt: The Supreme Court on Wednesday permitted the sale and bursting of green firecrackers in Delhi and the National Capital Region (NCR) during the upcoming Diwali festival [MC Mehta vs. Union of India & Ors.]. A Bench of Chief Justice of India (CJI) BR Gavai and Justice Vinod Chandran ordered that sale green crackers shall be permitted from October 18 to October 20. The bursting of such firecrackers shall be allowed from 6 am to 7 am and 8 pm to 10 pm on two days - the day before Diwali and on Diwali, the Court further directed.Sale of green cracker will be permitted from 18th October to 20th October. Police authority to constitute patrolling team to keep an eye that only permitted products with QR codes are to be sold. Violation notice to be attached for persons who violate the rules. Use firecrackers shall be confined to 6 am to 7 am and 8pm to 10pm on the day before Diwali and on Diwali day,the order said. There shall be no supply of firecrackers from e-commerce websites, the Bench added. The Court passed the order after taking into account the fact that a complete ban leads to smuggling of crackers causing more damage to air quality.Conventional firecrackers are smuggled which cause more damage. We have to take a balanced approach. Out of 22 districts in Haryana 14 districts fall in NCR. when the ban was imposed there was not much difference in air quality except during COVID period. The concept of green crackers was introduced after judgement in Arjun Gopal. Over 6 years green crackers have substantially reduced emission. NEERI has contributed to it. From 14.10.2024 to 1.1.2025 complete ban on manufacture was imposed, the Court noted while easing the ban. The Court issued the following directions: 1. Sale and bursting of green crackers as uploaded on the website of National Environmental Engineering Research Institute (NEERI) shall be permitted commencing from 18th-20th October. Sale shall be only permitted from the designated locations in the entire NCR which shall be identified by district collector and given wide publicity; 2. Police authority to constitute patrolling team to keep vigil on the designated locations of sale including officers from State Pollution Control Board; 3. Patrol team shall ensure only permitted products are sold having QR code. They should also take random samples for the purpose of analysing. Violation notice shall be attached to those involved in manufacture or sale of prohibited products whose license shall stand cancelled; 4. District administration and police to ensure use 
+2025-10-15 15:41:06 - 127.0.0.1 - - [15/Oct/2025 15:41:06] "POST /summarize HTTP/1.1" 200 -
+2025-10-15 15:41:17 - Endpoint name: /summarize | Prompt: The Supreme Court on Wednesday permitted the sale and bursting of green firecrackers in Delhi and the National Capital Region (NCR) during the upcoming Diwali festival [MC Mehta vs. Union of India & Ors.]. A Bench of Chief Justice of India (CJI) BR Gavai and Justice Vinod Chandran ordered that sale green crackers shall be permitted from October 18 to October 20. The bursting of such firecrackers shall be allowed from 6 am to 7 am and 8 pm to 10 pm on two days - the day before Diwali and on Diwali, the Court further directed.Sale of green cracker will be permitted from 18th October to 20th October. Police authority to constitute patrolling team to keep an eye that only permitted products with QR codes are to be sold. Violation notice to be attached for persons who violate the rules. Use firecrackers shall be confined to 6 am to 7 am and 8pm to 10pm on the day before Diwali and on Diwali day,the order said. There shall be no supply of firecrackers from e-commerce websites, the Bench added. The Court passed the order after taking into account the fact that a complete ban leads to smuggling of crackers causing more damage to air quality.Conventional firecrackers are smuggled which cause more damage. We have to take a balanced approach. Out of 22 districts in Haryana 14 districts fall in NCR. when the ban was imposed there was not much difference in air quality except during COVID period. The concept of green crackers was introduced after judgement in Arjun Gopal. Over 6 years green crackers have substantially reduced emission. NEERI has contributed to it. From 14.10.2024 to 1.1.2025 complete ban on manufacture was imposed, the Court noted while easing the ban. The Court issued the following directions: 1. Sale and bursting of green crackers as uploaded on the website of National Environmental Engineering Research Institute (NEERI) shall be permitted commencing from 18th-20th October. Sale shall be only permitted from the designated locations in the entire NCR which shall be identified by district collector and given wide publicity; 2. Police authority to constitute patrolling team to keep vigil on the designated locations of sale including officers from State Pollution Control Board; 3. Patrol team shall ensure only permitted products are sold having QR code. They should also take random samples for the purpose of analysing. Violation notice shall be attached to those involved in manufacture or sale of prohibited products whose license shall stand cancelled; 4. District administration and police to ensure use 
+2025-10-15 15:41:21 - 127.0.0.1 - - [15/Oct/2025 15:41:21] "POST /summarize HTTP/1.1" 200 -
+2025-10-15 15:41:53 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 15:41:53 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 15:41:53 -  * Detected change in 'E:\\Gemini\\app.py', reloading
+2025-10-15 15:41:55 -  * Restarting with watchdog (windowsapi)
+2025-10-15 15:41:58 -  * Debugger is active!
+2025-10-15 15:41:58 -  * Debugger PIN: 104-048-354
+2025-10-15 15:42:01 - 127.0.0.1 - - [15/Oct/2025 15:42:01] "[31m[1mPOST /summarize HTTP/1.1[0m" 401 -
