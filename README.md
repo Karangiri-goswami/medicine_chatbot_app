@@ -1,70 +1,60 @@
-# Medicine Chatbot
+Medicine Chatbot & Other AI Tasks
+This is a medicine chatbot built using Flask, Streamlit and Gemini API. It helps in educating people about medicines and also perform other AI tasks.
 
-This is a Flask based Medicine Assistant built using the Gemini API (Google Generative AI).
-It provides detailed information about medicines such as uses, side effects, dosage instructions, 
-and similar medicines.The chatbot interacts through well-defined endpoints to deliver AI-generated 
-responses based on the user’s query.
+Features
+system_prompt: Prompt to generate the use and side effects of the medicine
+ai_explain_prompt: Promot to get a summarize details of the medicine
+similar_medicine: Prompt to get an alternative medicine details
+generate_text_prompt: Prompt to generate paragraph
+summarize_prompt:Prompt to summarize the paragraph
+analyze_prompt: Prompt to analyze
+@app.before_request def check_key(): For API key authentication.
+Logging:
+To log each incoming request for tracking. All the files are stored in logs/app.log. Timestamp, Endpoint name and User prompt will be returned.
 
- ## Features
-* @app.route("/home") [GET] Returns a welcome message confirming that the API is running.
-    Response: "Welcome to medicine chatbot"
+Limiter:
+For controlled access and restricting the number of requests.
 
-* @app.route("/medicine_details") [POST]
-    Provides the uses and side effects of a given medicine.
-* Response Format:
-    **Paracetamol**
+Error Handlers:
+400 Bad Request: When the input format is incorrect. 401 Unauthorized: When the API key is missing/invalid. 429 Too Many Requests: When too many requests are sent.
 
-    **Use:** Used to reduce fever and relieve pain.  
-    **Side Effect:** May cause nausea or allergic reactions in rare cases.
+API KEYS:
+GEMINI_API_KEY: For accessing Gemini features.
+SERVER_API_KEY: To authenticate request of API.
+API endpoints
+/home GET: a welcome page
+/medicine_details POST: Use and side effect of medicine
+/ai_explain POST: Dosage, Instructions and timing
+/similar_medicine: similar medicine name, use and difference
+/generate_text: To generate a paragraph using a text input
+/summarize: To summarize the given article
+/analyze: To analyze and return the intent of the article
+Technologies used
+Flask
+Gemini API (gemini-2.5-flash)
+Streamlit
+1. Medicine details:
+alt text
 
-* @app.route("/ai_explain") [POST]
-    Explains the dosage and instructions for a particular medicine.
-* Response Format:
+2. AI explain mode:
+alt text
 
-    **Dosage and Instructions:** Take one tablet every 8 hours with water.  
-    **When and how to take:** Preferably after meals for better absorption.
+3. Alternative:
+alt text
 
-* @app.route("/similar_medicine") [POST]
-    Suggests similar medicines and explains differences between them.
-* Response Format:
+4. Generate Text:
+alt text
 
-    **Similar Medicine:** Dolo 650  
-    **Difference:** Dolo 650 has a slightly higher dosage of paracetamol and provides longer lasting relief.
+5. Summarize:
+alt text
 
-* Error Handling
-    Custom error responses are implemented for better debugging:
-1. 400 (Bad Request): Invalid or missing JSON data.
-2. 401 (Unauthorized): Missing or incorrect API key.
-3. 429 (Too Many Requests): Rate limit exceeded.
+6. Analyze:
+alt text
 
-## Technologies Used
+7. Limit request: When more than 1 request is made within 1 min:
+as generate_text limit is set to (@limiter.limit("1 per minute"))
 
-* Flask: creating RESTful APIs
-* Google Generative AI (Gemini 2.5 Flash): generating intelligent for medicine related responses
-* dotenv: managing API keys securely
-* Python: backend logic and integration
-* Streamlit UI
+alt text
 
-### Setup Instructions
-
-* Clone the repository and navigate to the project directory.
-* Create a .env file and add your Gemini API key:
-* GEMINI_API_KEY=your_api_key_here
-
-* Install dependencies:
-> pip install flask python-dotenv google-generativeai
-    
-     Run the Flask application: python app.py
-     
-     streamlit run streamlit.py
-* or access endpoints using tools like Postman.
-
-### Example Use Case
-1. Instantly fetch medicine information
-2. Provide safe usage instructions to patients
-3. Suggest alternative medicines based on user queries
-4. Curated only for medicine related queries
-
-### Sample Output:
-
-![alt text](images/output.jpg)
+8. When request is made with incorrect API key:
+alt text
