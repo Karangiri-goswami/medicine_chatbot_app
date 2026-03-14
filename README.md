@@ -1,4 +1,5 @@
-Medicine Chatbot & Other AI Tasks
+ # Medicine Chatbot & Other AI Tasks
+
 This is a medicine chatbot built using Flask, Streamlit and Gemini API. It helps in educating people about medicines and also perform other AI tasks.
 
 Features
