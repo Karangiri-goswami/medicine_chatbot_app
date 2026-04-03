@@ -228,6 +228,7 @@ st.markdown(f"""
 {nav_item("Summarize")}
 {nav_item("Analyze")}
 {nav_item("Nearby Healthcare")}
+{nav_item("Admin Dashboard")}
 </div>
 """, unsafe_allow_html=True)
 
@@ -522,10 +523,43 @@ elif page == "Nearby Healthcare":
 
         except Exception as e:
             st.error(str(e))    
-
         
-else:
-            st.warning("Enter location")
+elif page == "Admin Dashboard":
+
+    st.subheader("Admin Dashboard 🔒")
+
+    if "admin_logged_in" not in st.session_state:
+        st.session_state.admin_logged_in = False
+
+    if not st.session_state.admin_logged_in:
+        st.write("Please log in to view the database.")
+        admin_user = st.text_input("Username")
+        admin_pass = st.text_input("Password", type="password")
+        if st.button("Login"):
+            if admin_user == "admin" and admin_pass == "admin123":
+                st.session_state.admin_logged_in = True
+                st.rerun()
+            else:
+                st.error("Invalid credentials")
+    else:
+        st.success("Welcome, Admin!")
+        if st.button("Logout"):
+            st.session_state.admin_logged_in = False
+            st.rerun()
+            
+        st.write("### Cached Medicine Data")
+        try:
+            import sqlite3
+            import pandas as pd
+            conn = sqlite3.connect("medicine_cache.db")
+            df = pd.read_sql_query("SELECT * FROM medicine_cache", conn)
+            if not df.empty:
+                st.dataframe(df, use_container_width=True)
+            else:
+                st.info("The medicine cache database is empty.")
+            conn.close()
+        except Exception as e:
+            st.error(f"Error loading database: {str(e)}")
 
 # ==================== FOOTER ====================
 st.divider()
