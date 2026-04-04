@@ -7,7 +7,10 @@ import time
 import sqlite3
 import requests
 import os
+import tempfile
+
 BACKEND_URL = os.getenv("BACKEND_URL", "https://medicine-chatbot-app.vercel.app/")
+DB_PATH = os.path.join(tempfile.gettempdir(), 'medicine_cache.db') if os.environ.get("VERCEL") else 'medicine_cache.db'
 
 try:
     from duckduckgo_search import DDGS
@@ -20,13 +23,20 @@ load_dotenv()
 app = Flask(__name__)
 
 # ==================== LOGGING ====================
-os.makedirs('logs', exist_ok=True)
-
-logging.basicConfig(
-    filename='logs/app.log',
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
+if os.environ.get("VERCEL"):
+    import sys
+    logging.basicConfig(
+        stream=sys.stdout,
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s'
+    )
+else:
+    os.makedirs('logs', exist_ok=True)
+    logging.basicConfig(
+        filename='logs/app.log',
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s'
+    )
 logger = logging.getLogger(__name__)
 
 # ==================== API KEYS ====================
@@ -121,7 +131,7 @@ def ask_gemini(prompt):
 def init_db():
     try:
         # FIX: check_same_thread=False for Flask concurrent requests
-        conn = sqlite3.connect('medicine_cache.db', check_same_thread=False)
+        conn = sqlite3.connect(DB_PATH, check_same_thread=False)
         c = conn.cursor()
 
         try:
@@ -156,7 +166,7 @@ init_db()
 
 def get_medicine_reply(feature, medicine_name, language):
     try:
-        conn = sqlite3.connect('medicine_cache.db', check_same_thread=False)
+        conn = sqlite3.connect(DB_PATH, check_same_thread=False)
         c = conn.cursor()
         c.execute(
             "SELECT reply FROM db_cache WHERE feature = ? AND medicine_name COLLATE NOCASE = ? AND language COLLATE NOCASE = ?",
@@ -172,7 +182,7 @@ def get_medicine_reply(feature, medicine_name, language):
 
 def upsert_medicine_reply(feature, medicine_name, language, reply):
     try:
-        conn = sqlite3.connect('medicine_cache.db', check_same_thread=False)
+        conn = sqlite3.connect(DB_PATH, check_same_thread=False)
         c = conn.cursor()
         c.execute(
             '''INSERT INTO db_cache (feature, medicine_name, language, reply, updated_at)

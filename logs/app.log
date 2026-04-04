@@ -2095,3 +2095,33 @@
 2026-04-04 23:48:06,464 - INFO -  * Debugger PIN: 101-525-989
 2026-04-04 23:48:06,564 - WARNING -  * Debugger is active!
 2026-04-04 23:48:06,571 - INFO -  * Debugger PIN: 101-525-989
+2026-04-05 00:02:56,978 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-05 00:02:57,696 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-05 00:02:57,911 - INFO -  * Restarting with stat
+2026-04-05 00:02:58,444 - INFO -  * Restarting with stat
+2026-04-05 00:03:03,502 - WARNING -  * Debugger is active!
+2026-04-05 00:03:03,511 - INFO -  * Debugger PIN: 101-525-989
+2026-04-05 00:03:03,570 - WARNING -  * Debugger is active!
+2026-04-05 00:03:03,584 - INFO -  * Debugger PIN: 101-525-989
+2026-04-05 00:03:59,530 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-05 00:04:00,707 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67669769788935752520728137944951279564&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-05 00:04:00,707 - WARNING - DDGS failed, falling back to Wikipedia: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67669769788935752520728137944951279564&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+2026-04-05 00:04:02,156 - INFO - 127.0.0.1 - - [05/Apr/2026 00:04:02] "[33mPOST /get_image HTTP/1.1[0m" 404 -
+2026-04-05 00:04:02,164 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-05 00:04:02,167 - INFO - 127.0.0.1 - - [05/Apr/2026 00:04:02] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-05 00:04:02,173 - INFO - 127.0.0.1 - - [05/Apr/2026 00:04:02] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-05 00:04:02,184 - INFO - 127.0.0.1 - - [05/Apr/2026 00:04:02] "POST /similar_medicine HTTP/1.1" 200 -
+2026-04-05 00:04:02,190 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-05 00:04:13,867 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-05 00:04:13,890 - INFO - 127.0.0.1 - - [05/Apr/2026 00:04:13] "POST /medicine_links HTTP/1.1" 200 -
+2026-04-05 00:09:55,818 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-05 00:09:55,835 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-05 00:09:56,449 - INFO -  * Restarting with stat
+2026-04-05 00:09:56,462 - INFO -  * Restarting with stat
+2026-04-05 00:10:01,386 - ERROR - Error initializing DB: name 'DB_PATH' is not defined
+2026-04-05 00:10:01,394 - ERROR - Error initializing DB: name 'DB_PATH' is not defined
+2026-04-05 00:10:01,444 - WARNING -  * Debugger is active!
+2026-04-05 00:10:01,448 - INFO -  * Debugger PIN: 101-525-989
+2026-04-05 00:10:01,448 - INFO -  * Debugger PIN: 101-525-989
+2026-04-05 00:10:04,494 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-05 00:10:04,495 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
