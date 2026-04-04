@@ -447,3 +447,1621 @@
 2025-10-15 15:41:58 -  * Debugger is active!
 2025-10-15 15:41:58 -  * Debugger PIN: 104-048-354
 2025-10-15 15:42:01 - 127.0.0.1 - - [15/Oct/2025 15:42:01] "[31m[1mPOST /summarize HTTP/1.1[0m" 401 -
+2026-04-03 11:31:04 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-03 11:31:04 - [33mPress CTRL+C to quit[0m
+2026-04-03 11:31:04 -  * Restarting with stat
+2026-04-03 11:31:09 -  * Debugger is active!
+2026-04-03 11:31:09 -  * Debugger PIN: 821-187-839
+2026-04-03 11:33:32 - 127.0.0.1 - - [03/Apr/2026 11:33:32] "[31m[1mPOST /medicine_details HTTP/1.1[0m" 401 -
+2026-04-03 11:40:09 - 127.0.0.1 - - [03/Apr/2026 11:40:09] "[31m[1mPOST /medicine_details HTTP/1.1[0m" 401 -
+2026-04-03 11:42:26 -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 11:42:27 -  * Restarting with stat
+2026-04-03 11:42:29 -  * Debugger is active!
+2026-04-03 11:42:29 -  * Debugger PIN: 821-187-839
+2026-04-03 11:53:57 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-03 11:53:57 - [33mPress CTRL+C to quit[0m
+2026-04-03 11:53:57 -  * Restarting with stat
+2026-04-03 11:53:59 -  * Debugger is active!
+2026-04-03 11:53:59 -  * Debugger PIN: 821-187-839
+2026-04-03 11:54:31 - 127.0.0.1 - - [03/Apr/2026 11:54:31] "[31m[1mPOST /medicine_details HTTP/1.1[0m" 401 -
+2026-04-03 11:55:02 -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 11:55:02 -  * Restarting with stat
+2026-04-03 11:55:04,581 - __main__ - INFO - Application started
+2026-04-03 11:55:04,607 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 11:55:04,612 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 11:55:15,783 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 11:55:16 -  * Restarting with stat
+2026-04-03 11:55:18,114 - __main__ - INFO - Application started
+2026-04-03 11:55:18,147 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 11:55:18,150 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 11:57:06,882 - __main__ - INFO - Endpoint: medicine_details | User Prompt: Paracetamol
+2026-04-03 11:57:11,711 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 11:57:11] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-03 12:02:50,215 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 12:02:52 -  * Restarting with stat
+2026-04-03 12:02:54,730 - __main__ - INFO - Application started
+2026-04-03 12:02:54,754 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 12:02:54,757 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 12:05:28,952 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 12:05:29 -  * Restarting with stat
+2026-04-03 12:05:31,057 - __main__ - INFO - Application started
+2026-04-03 12:05:31,080 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 12:05:31,084 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 12:21:14,649 - __main__ - INFO - Endpoint: analyze | User Prompt: mane fever chhe
+2026-04-03 12:21:21,639 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 12:21:21] "POST /analyze HTTP/1.1" 200 -
+2026-04-03 12:29:32,150 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\database.py', reloading
+2026-04-03 12:29:34 -  * Restarting with stat
+2026-04-03 12:29:36,332 - __main__ - INFO - Application started
+2026-04-03 12:29:36,358 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 12:29:36,362 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 12:30:34,901 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\database.py', reloading
+2026-04-03 12:30:35 -  * Restarting with stat
+2026-04-03 12:30:36,984 - __main__ - INFO - Application started
+2026-04-03 12:30:37,011 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 12:30:37,015 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 12:30:57,171 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 12:30:57 -  * Restarting with stat
+2026-04-03 12:31:20,283 - __main__ - INFO - Application started
+2026-04-03 12:31:20,405 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 12:31:20,411 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 12:34:44,370 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 12:34:44 -  * Restarting with stat
+2026-04-03 12:34:47,439 - __main__ - INFO - Application started
+2026-04-03 12:34:47,466 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 12:34:47,469 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 12:35:19,156 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 12:35:21 -  * Restarting with stat
+2026-04-03 12:35:36,762 - __main__ - INFO - Application started
+2026-04-03 12:35:36,848 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 12:35:36,854 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 12:40:40,727 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 12:40:40 -  * Restarting with stat
+2026-04-03 12:40:43,033 - __main__ - INFO - Application started
+2026-04-03 12:40:43,061 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 12:40:43,068 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 12:41:23,414 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 12:41:23 -  * Restarting with stat
+2026-04-03 12:41:26,429 - __main__ - INFO - Application started
+2026-04-03 12:41:26,458 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 12:41:26,461 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 13:18:19,050 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 13:18:20 -  * Restarting with stat
+2026-04-03 13:18:31,342 - __main__ - INFO - Application started
+2026-04-03 13:18:31,393 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 13:18:31,400 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 13:34:57,855 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 13:34:58 -  * Restarting with stat
+2026-04-03 13:35:01,109 - __main__ - INFO - Application started
+2026-04-03 13:35:01,147 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 13:35:01,153 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 13:55:22,100 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 13:55:22 -  * Restarting with stat
+2026-04-03 13:55:25,280 - __main__ - INFO - Application started
+2026-04-03 13:55:25,399 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 13:55:25,426 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 13:55:32,564 - __main__ - INFO - Endpoint: medicine_details | User Prompt: paracetamol
+2026-04-03 13:56:13,437 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 13:56:13] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-03 14:23:33,722 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 14:23:38 -  * Restarting with stat
+2026-04-03 14:23:43,119 - __main__ - INFO - Application started
+2026-04-03 14:23:43,179 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 14:23:43,187 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 14:23:46,266 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 14:23:47 -  * Restarting with stat
+2026-04-03 14:23:50,935 - __main__ - INFO - Application started
+2026-04-03 14:23:51,044 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 14:23:51,054 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 14:23:52,124 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 14:23:52 -  * Restarting with stat
+2026-04-03 14:23:55,445 - __main__ - INFO - Application started
+2026-04-03 14:23:55,472 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 14:23:55,477 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 14:23:57,898 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 14:23:58 -  * Restarting with stat
+2026-04-03 14:24:02,848 - __main__ - INFO - Application started
+2026-04-03 14:24:02,882 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 14:24:02,887 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 14:24:26,441 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 14:24:27 -  * Restarting with stat
+2026-04-03 14:24:30,294 - __main__ - INFO - Application started
+2026-04-03 14:24:30,332 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 14:24:30,336 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 15:49:44,042 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 15:49:46 -  * Restarting with stat
+2026-04-03 15:49:49,718 - __main__ - INFO - Application started
+2026-04-03 15:49:49,761 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 15:49:49,770 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 15:51:11,729 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\data_store.py', reloading
+2026-04-03 15:51:12 -  * Restarting with stat
+2026-04-03 16:40:51,173 - __main__ - INFO - Application started
+2026-04-03 16:40:51,269 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-03 16:40:51,270 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-03 16:40:51,273 - werkzeug - INFO -  * Restarting with stat
+2026-04-03 16:41:00,820 - __main__ - INFO - Application started
+2026-04-03 16:41:01,928 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 16:41:01,956 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 16:41:13,648 - __main__ - INFO - Endpoint: medicine_details | User Prompt: paracetamol
+2026-04-03 16:41:13,648 - __main__ - ERROR - Error in medicine_details: name 'get_medicine_reply' is not defined
+2026-04-03 16:41:13,649 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 16:41:13] "[35m[1mPOST /medicine_details HTTP/1.1[0m" 500 -
+2026-04-03 16:41:19,843 - __main__ - INFO - Endpoint: medicine_details | User Prompt: paracetamol
+2026-04-03 16:41:19,844 - __main__ - ERROR - Error in medicine_details: name 'get_medicine_reply' is not defined
+2026-04-03 16:41:19,844 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 16:41:19] "[35m[1mPOST /medicine_details HTTP/1.1[0m" 500 -
+2026-04-03 16:41:21,952 - __main__ - INFO - Endpoint: medicine_details | User Prompt: paracetamol
+2026-04-03 16:41:21,952 - __main__ - ERROR - Error in medicine_details: name 'get_medicine_reply' is not defined
+2026-04-03 16:41:21,953 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 16:41:21] "[35m[1mPOST /medicine_details HTTP/1.1[0m" 500 -
+2026-04-03 16:41:23,121 - __main__ - INFO - Endpoint: medicine_details | User Prompt: paracetamol
+2026-04-03 16:41:23,122 - __main__ - ERROR - Error in medicine_details: name 'get_medicine_reply' is not defined
+2026-04-03 16:41:23,122 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 16:41:23] "[35m[1mPOST /medicine_details HTTP/1.1[0m" 500 -
+2026-04-03 16:41:59,288 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 16:41:59,652 - werkzeug - INFO -  * Restarting with stat
+2026-04-03 16:42:02,757 - __main__ - INFO - Application started
+2026-04-03 16:42:02,818 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 16:42:02,827 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 16:43:09,941 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 16:43:10,135 - werkzeug - INFO -  * Restarting with stat
+2026-04-03 16:43:12,540 - __main__ - INFO - Application started
+2026-04-03 16:43:12,572 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 16:43:12,576 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 16:43:20,839 - __main__ - INFO - Application started
+2026-04-03 16:43:20,903 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-03 16:43:20,903 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-03 16:43:20,906 - werkzeug - INFO -  * Restarting with stat
+2026-04-03 16:43:22,680 - __main__ - INFO - Application started
+2026-04-03 16:43:22,708 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 16:43:22,712 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 16:45:13,676 - __main__ - INFO - Application started
+2026-04-03 16:45:13,722 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-03 16:45:13,723 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-03 16:45:13,725 - werkzeug - INFO -  * Restarting with stat
+2026-04-03 16:45:15,538 - __main__ - INFO - Application started
+2026-04-03 16:45:15,571 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 16:45:15,575 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 17:17:42,364 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 17:17:42,554 - werkzeug - INFO -  * Restarting with stat
+2026-04-03 17:17:45,104 - __main__ - INFO - Application started
+2026-04-03 17:17:45,150 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 17:17:45,154 - werkzeug - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 17:17:59,906 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 17:17:59] "[33mPOST /medicine HTTP/1.1[0m" 404 -
+2026-04-03 17:18:17,513 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 17:18:17,921 - werkzeug - INFO -  * Restarting with stat
+2026-04-03 17:41:03,239 - __main__ - INFO - Application started
+2026-04-03 17:41:03,290 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-03 17:41:03,290 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-03 17:41:03,314 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 17:41:05,125 - __main__ - INFO - Application started
+2026-04-03 17:41:05,155 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 17:41:05,160 - werkzeug - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 17:41:19,560 - __main__ - INFO - Endpoint: medicine_details | User Prompt: paracetamol
+2026-04-03 17:41:21,049 - __main__ - ERROR - Error in medicine_details: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-03 17:41:21,050 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 17:41:21] "[35m[1mPOST /medicine_details HTTP/1.1[0m" 500 -
+2026-04-03 17:45:10,696 - __main__ - INFO - Endpoint: medicine_details | User Prompt: gelusil
+2026-04-03 17:45:11,008 - __main__ - ERROR - Error in medicine_details: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-03 17:45:11,009 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 17:45:11] "[35m[1mPOST /medicine_details HTTP/1.1[0m" 500 -
+2026-04-03 17:47:31,138 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 17:47:33,545 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 17:47:35,792 - __main__ - INFO - Application started
+2026-04-03 17:47:35,823 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 17:47:35,827 - werkzeug - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 17:47:45,720 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 17:47:46,018 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 17:47:59,682 - __main__ - INFO - Application started
+2026-04-03 17:47:59,718 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 17:47:59,725 - werkzeug - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 17:48:17,835 - __main__ - INFO - Endpoint: ai_explain | User Prompt: paracetamol
+2026-04-03 17:48:54,100 - __main__ - INFO - Endpoint: ai_explain | User Prompt: paracetamol
+2026-04-03 17:48:54,346 - __main__ - INFO - Endpoint: ai_explain | User Prompt: paracetamol
+2026-04-03 17:48:57,114 - __main__ - ERROR - Error in ai_explain: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-03 17:48:57,115 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 17:48:57] "[35m[1mPOST /ai_explain HTTP/1.1[0m" 500 -
+2026-04-03 17:48:57,715 - __main__ - ERROR - Error in ai_explain: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-03 17:48:57,715 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 17:48:57] "[35m[1mPOST /ai_explain HTTP/1.1[0m" 500 -
+2026-04-03 17:49:01,465 - __main__ - ERROR - Error in ai_explain: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-03 17:49:01,465 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 17:49:01] "[35m[1mPOST /ai_explain HTTP/1.1[0m" 500 -
+2026-04-03 17:49:49,560 - __main__ - INFO - Endpoint: ai_explain | User Prompt: paracetamol
+2026-04-03 17:49:49,706 - __main__ - ERROR - Error in ai_explain: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-03 17:49:49,707 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 17:49:49] "[35m[1mPOST /ai_explain HTTP/1.1[0m" 500 -
+2026-04-03 17:50:51,186 - __main__ - INFO - Application started
+2026-04-03 17:50:51,252 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-03 17:50:51,252 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-03 17:50:51,280 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 17:50:53,762 - __main__ - INFO - Application started
+2026-04-03 17:50:53,792 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 17:50:53,798 - werkzeug - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 17:51:05,631 - __main__ - INFO - Endpoint: ai_explain | User Prompt: Paracetamol
+2026-04-03 17:51:05,862 - __main__ - ERROR - Error in ai_explain: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-03 17:51:05,862 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 17:51:05] "[35m[1mPOST /ai_explain HTTP/1.1[0m" 500 -
+2026-04-03 17:57:26,565 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pymongo\\errors.py', reloading
+2026-04-03 17:57:29,148 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 17:57:31,190 - __main__ - INFO - Application started
+2026-04-03 17:57:31,224 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 17:57:31,228 - werkzeug - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 18:01:07,126 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pymongo\\synchronous\\settings.py', reloading
+2026-04-03 18:01:07,383 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 18:01:09,009 - __main__ - INFO - Application started
+2026-04-03 18:01:09,039 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 18:01:09,045 - werkzeug - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 18:02:46,530 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\apiclient\\__init__.py', reloading
+2026-04-03 18:02:46,531 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\future\\__init__.py', reloading
+2026-04-03 18:02:46,532 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\googleapiclient\\__init__.py', reloading
+2026-04-03 18:02:46,533 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\grpc_status\\__init__.py', reloading
+2026-04-03 18:02:46,534 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\libfuturize\\__init__.py', reloading
+2026-04-03 18:02:46,535 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\libpasteurize\\__init__.py', reloading
+2026-04-03 18:02:46,535 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\past\\__init__.py', reloading
+2026-04-03 18:02:46,536 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pyasn1_modules\\__init__.py', reloading
+2026-04-03 18:02:46,537 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\ratelim\\__init__.py', reloading
+2026-04-03 18:02:46,778 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 18:02:48,865 - __main__ - INFO - Application started
+2026-04-03 18:02:48,900 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 18:02:48,904 - werkzeug - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 18:11:00,349 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 18:11:00] "[33mOPTIONS /explain HTTP/1.1[0m" 404 -
+2026-04-03 18:12:21,908 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\flask\\config.py', reloading
+2026-04-03 18:12:22,464 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 18:12:27,679 - __main__ - INFO - Application started
+2026-04-03 18:12:27,715 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 18:12:27,721 - werkzeug - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 18:12:41,721 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\bson\\objectid.py', reloading
+2026-04-03 18:12:42,055 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 18:12:44,902 - __main__ - INFO - Application started
+2026-04-03 18:12:44,949 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 18:12:44,961 - werkzeug - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 20:15:54,304 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-03 20:15:54,305 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-03 20:15:54,340 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 20:15:57,116 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 20:15:57,123 - werkzeug - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 20:16:09,482 - __main__ - INFO - Endpoint: medicine_details | User Prompt: paracetamol
+2026-04-03 20:16:11,157 - __main__ - ERROR - Error in medicine_details: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-03 20:16:11,158 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 20:16:11] "[35m[1mPOST /medicine_details HTTP/1.1[0m" 500 -
+2026-04-03 20:42:03,598 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 20:42:06,016 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 20:42:08,867 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 20:42:08,871 - werkzeug - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 20:47:47,208 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\venv\\Lib\\site-packages\\google\\auth\\__init__.py', reloading
+2026-04-03 20:47:48,064 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 20:47:52,144 - werkzeug - WARNING -  * Debugger is active!
+2026-04-03 20:47:52,151 - werkzeug - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 20:47:56,037 - __main__ - INFO - Endpoint: medicine_details | User Prompt: paracetamol
+2026-04-03 20:47:56,428 - __main__ - ERROR - Error in medicine_details: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-03 20:47:56,430 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2026 20:47:56] "[35m[1mPOST /medicine_details HTTP/1.1[0m" 500 -
+2026-04-03 20:52:45,077 - werkzeug - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\venv\\Lib\\site-packages\\google\\genai\\__init__.py', reloading
+2026-04-03 20:52:47,520 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 20:52:52,812 - WARNING -  * Debugger is active!
+2026-04-03 20:52:52,816 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 20:53:11,976 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 20:53:12,294 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 20:53:17,421 - WARNING -  * Debugger is active!
+2026-04-03 20:53:17,425 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 20:53:26,923 - INFO - medicine_details: paracetamol
+2026-04-03 20:53:26,924 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-03 20:53:27,151 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-04-03 20:53:27,171 - ERROR - Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-04-03 20:53:27,172 - INFO - 127.0.0.1 - - [03/Apr/2026 20:53:27] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-03 20:55:47,145 - INFO - 127.0.0.1 - - [03/Apr/2026 20:55:47] "[33mPOST /ai_explain HTTP/1.1[0m" 404 -
+2026-04-03 21:01:12,532 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-03 21:01:12,532 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-03 21:01:12,562 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 21:01:16,132 - WARNING -  * Debugger is active!
+2026-04-03 21:01:16,136 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 21:01:21,490 - INFO - 127.0.0.1 - - [03/Apr/2026 21:01:21] "[33mPOST /ai_explain HTTP/1.1[0m" 404 -
+2026-04-03 21:01:33,544 - INFO - 127.0.0.1 - - [03/Apr/2026 21:01:33] "[33mPOST /ai_explain HTTP/1.1[0m" 404 -
+2026-04-03 21:08:06,145 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\venv\\Lib\\site-packages\\streamlit\\env_util.py', reloading
+2026-04-03 21:08:07,223 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 21:08:13,374 - WARNING -  * Debugger is active!
+2026-04-03 21:08:13,380 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 21:12:03,112 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-03 21:12:03,112 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-03 21:12:03,148 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 21:12:08,865 - WARNING -  * Debugger is active!
+2026-04-03 21:12:08,873 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 21:12:16,691 - INFO - medicine_details: paracetamol
+2026-04-03 21:12:16,696 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-03 21:12:19,961 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-04-03 21:12:19,981 - ERROR - Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-04-03 21:12:19,982 - INFO - 127.0.0.1 - - [03/Apr/2026 21:12:19] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-03 21:14:18,698 - INFO - medicine_details: paracetamol
+2026-04-03 21:14:18,698 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-03 21:14:19,087 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-04-03 21:14:19,092 - ERROR - Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-04-03 21:14:19,093 - INFO - 127.0.0.1 - - [03/Apr/2026 21:14:19] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-03 21:16:53,353 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 21:16:53,356 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 21:16:55,330 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 21:16:55,460 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 21:17:05,464 - WARNING -  * Debugger is active!
+2026-04-03 21:17:05,471 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 21:17:06,147 - WARNING -  * Debugger is active!
+2026-04-03 21:17:06,153 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 21:17:09,679 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 21:17:10,651 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 21:17:10,717 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 21:17:18,955 - WARNING -  * Debugger is active!
+2026-04-03 21:17:18,961 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 21:17:19,021 - WARNING -  * Debugger is active!
+2026-04-03 21:17:19,037 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 21:17:22,053 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 21:17:24,730 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 21:17:24,749 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 21:18:58,663 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-03 21:18:58,663 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-03 21:18:58,667 - INFO -  * Restarting with stat
+2026-04-03 21:19:05,181 - WARNING -  * Debugger is active!
+2026-04-03 21:19:05,203 - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 21:19:06,838 - INFO - 127.0.0.1 - - [03/Apr/2026 21:19:06] "[31m[1mPOST /medicine_details HTTP/1.1[0m" 401 -
+2026-04-03 21:19:32,819 - INFO - medicine_details: Paracetamol
+2026-04-03 21:19:32,823 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-03 21:19:33,171 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-04-03 21:19:33,196 - ERROR - Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-04-03 21:19:33,212 - INFO - 127.0.0.1 - - [03/Apr/2026 21:19:33] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-03 21:20:10,870 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 21:20:11,917 - INFO -  * Restarting with stat
+2026-04-03 21:20:19,008 - WARNING -  * Debugger is active!
+2026-04-03 21:20:19,012 - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 21:20:42,551 - INFO - medicine_details: Paracetamol
+2026-04-03 21:20:42,571 - INFO - 127.0.0.1 - - [03/Apr/2026 21:20:42] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-03 21:20:56,837 - INFO - medicine_details: Aspirin
+2026-04-03 21:20:56,838 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-03 21:21:05,036 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-03 21:21:05,074 - INFO - 127.0.0.1 - - [03/Apr/2026 21:21:05] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-03 21:21:53,851 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 21:21:54,543 - INFO -  * Restarting with stat
+2026-04-03 21:21:59,605 - WARNING -  * Debugger is active!
+2026-04-03 21:21:59,609 - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 21:22:15,196 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-03 21:22:15,196 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-03 21:22:15,230 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 21:22:16,809 - INFO - medicine_details: paracetamol
+2026-04-03 21:22:16,812 - INFO - 127.0.0.1 - - [03/Apr/2026 21:22:16] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-03 21:22:20,601 - WARNING -  * Debugger is active!
+2026-04-03 21:22:20,608 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 21:22:29,915 - INFO - medicine_details: paracitamol
+2026-04-03 21:22:29,918 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-03 21:22:37,755 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-03 21:22:37,794 - INFO - 127.0.0.1 - - [03/Apr/2026 21:22:37] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-03 21:22:51,885 - INFO - 127.0.0.1 - - [03/Apr/2026 21:22:51] "[33mPOST /ai_explain HTTP/1.1[0m" 404 -
+2026-04-03 21:24:13,652 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 21:24:14,040 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 21:24:14,316 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-03 21:24:15,179 - INFO -  * Restarting with stat
+2026-04-03 21:24:21,111 - WARNING -  * Debugger is active!
+2026-04-03 21:24:21,115 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 21:24:21,206 - WARNING -  * Debugger is active!
+2026-04-03 21:24:21,209 - INFO -  * Debugger PIN: 821-187-839
+2026-04-03 21:25:22,400 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-03 21:25:22,400 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-03 21:25:22,421 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 21:25:26,257 - WARNING -  * Debugger is active!
+2026-04-03 21:25:26,262 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 21:25:27,780 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-03 21:25:36,336 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-03 21:25:36,338 - INFO - 127.0.0.1 - - [03/Apr/2026 21:25:36] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-03 21:25:46,518 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-03 21:26:01,550 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-03 21:26:01,552 - INFO - 127.0.0.1 - - [03/Apr/2026 21:26:01] "POST /similar_medicine HTTP/1.1" 200 -
+2026-04-03 21:26:12,124 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-03 21:26:20,676 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-03 21:26:20,678 - INFO - 127.0.0.1 - - [03/Apr/2026 21:26:20] "POST /medicine_links HTTP/1.1" 200 -
+2026-04-03 21:26:55,094 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\venv\\Lib\\site-packages\\tornado\\websocket.py', reloading
+2026-04-03 21:26:55,471 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 21:27:02,142 - WARNING -  * Debugger is active!
+2026-04-03 21:27:02,147 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 21:49:43,143 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-03 21:49:58,180 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-03 21:49:58,197 - INFO - 127.0.0.1 - - [03/Apr/2026 21:49:58] "POST /analyze HTTP/1.1" 200 -
+2026-04-03 21:50:35,573 - INFO - 127.0.0.1 - - [03/Apr/2026 21:50:35] "POST /nearby_healthcare HTTP/1.1" 200 -
+2026-04-03 22:02:54,330 - INFO - medicine_details: Paracetamol
+2026-04-03 22:02:54,337 - INFO - 127.0.0.1 - - [03/Apr/2026 22:02:54] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-03 22:03:09,422 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-03 22:03:18,707 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-03 22:03:18,713 - INFO - 127.0.0.1 - - [03/Apr/2026 22:03:18] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-03 22:04:39,193 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-03 22:04:54,451 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-03 22:04:54,455 - INFO - 127.0.0.1 - - [03/Apr/2026 22:04:54] "POST /analyze HTTP/1.1" 200 -
+2026-04-03 22:08:34,823 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\venv\\Lib\\site-packages\\google\\genai\\__init__.py', reloading
+2026-04-03 22:08:35,490 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 22:08:41,252 - WARNING -  * Debugger is active!
+2026-04-03 22:08:41,256 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 22:14:57,289 - INFO - 127.0.0.1 - - [03/Apr/2026 22:14:57] "POST /nearby_healthcare HTTP/1.1" 200 -
+2026-04-03 22:26:47,660 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 22:26:48,275 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 22:26:53,372 - WARNING -  * Debugger is active!
+2026-04-03 22:26:53,389 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 22:26:59,511 - INFO - medicine_details: Paracitamol
+2026-04-03 22:26:59,512 - INFO - 127.0.0.1 - - [03/Apr/2026 22:26:59] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-03 23:32:21,277 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-03 23:32:22,350 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-03 23:32:29,492 - WARNING -  * Debugger is active!
+2026-04-03 23:32:29,497 - INFO -  * Debugger PIN: 136-907-866
+2026-04-03 23:35:00,513 - INFO - medicine_details: paracitamol
+2026-04-03 23:35:00,518 - INFO - 127.0.0.1 - - [03/Apr/2026 23:35:00] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 07:19:07,954 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 07:19:07,956 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 07:19:07,982 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 07:19:12,804 - WARNING -  * Debugger is active!
+2026-04-04 07:19:12,817 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 07:19:30,467 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_strptime.py', reloading
+2026-04-04 07:19:30,913 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 07:19:36,091 - WARNING -  * Debugger is active!
+2026-04-04 07:19:36,095 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 08:31:52,323 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 08:31:52,850 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 08:31:59,596 - WARNING -  * Debugger is active!
+2026-04-04 08:31:59,606 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 08:50:50,591 - INFO - medicine_details: paracetamol
+2026-04-04 08:50:50,604 - INFO - 127.0.0.1 - - [04/Apr/2026 08:50:50] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 08:50:57,474 - INFO - medicine_details: paracetamol
+2026-04-04 08:50:57,475 - INFO - 127.0.0.1 - - [04/Apr/2026 08:50:57] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 08:50:59,877 - INFO - medicine_details: paracetamol
+2026-04-04 08:50:59,878 - INFO - 127.0.0.1 - - [04/Apr/2026 08:50:59] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 08:51:09,760 - INFO - medicine_details: paracetamol
+2026-04-04 08:51:09,764 - INFO - 127.0.0.1 - - [04/Apr/2026 08:51:09] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 08:51:18,724 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 08:51:26,869 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 08:51:26,894 - INFO - 127.0.0.1 - - [04/Apr/2026 08:51:26] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-04 09:33:20,515 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 09:33:20,994 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 09:33:30,246 - WARNING -  * Debugger is active!
+2026-04-04 09:33:30,254 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 09:34:07,570 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 09:34:08,082 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 09:34:17,592 - WARNING -  * Debugger is active!
+2026-04-04 09:34:17,599 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 09:34:26,704 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 09:34:43,666 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 09:34:43,672 - INFO - 127.0.0.1 - - [04/Apr/2026 09:34:43] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-04 09:35:14,972 - INFO - medicine_details: paracetamol | Lang: English
+2026-04-04 09:35:14,978 - INFO - 127.0.0.1 - - [04/Apr/2026 09:35:14] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 09:35:35,825 - INFO - medicine_details: Paracitamol | Lang: English
+2026-04-04 09:35:35,828 - INFO - 127.0.0.1 - - [04/Apr/2026 09:35:35] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 09:36:02,899 - INFO - 127.0.0.1 - - [04/Apr/2026 09:36:02] "POST /nearby_healthcare HTTP/1.1" 200 -
+2026-04-04 09:43:28,968 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 09:43:29,412 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 09:43:35,564 - WARNING -  * Debugger is active!
+2026-04-04 09:43:35,574 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 09:47:35,836 - INFO - medicine_details: Paracetamol | Lang: English
+2026-04-04 09:47:35,842 - INFO - 127.0.0.1 - - [04/Apr/2026 09:47:35] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 09:47:44,320 - INFO - medicine_details: Paracitamol | Lang: English
+2026-04-04 09:47:44,322 - INFO - 127.0.0.1 - - [04/Apr/2026 09:47:44] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 09:53:31,956 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 09:53:32,417 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 09:53:39,034 - WARNING -  * Debugger is active!
+2026-04-04 09:53:39,040 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 09:53:56,934 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 09:53:57,317 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 09:54:03,869 - WARNING -  * Debugger is active!
+2026-04-04 09:54:03,877 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 09:54:19,322 - INFO - medicine_details: Paracitamol | Lang: English
+2026-04-04 09:54:19,328 - INFO - 127.0.0.1 - - [04/Apr/2026 09:54:19] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 09:54:36,723 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 09:54:36,725 - INFO - 127.0.0.1 - - [04/Apr/2026 09:54:36] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 09:55:46,974 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 09:55:47,053 - ERROR - Gemini error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1081)
+2026-04-04 09:55:47,054 - INFO - 127.0.0.1 - - [04/Apr/2026 09:55:47] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-04 09:56:00,724 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 09:56:00,748 - ERROR - Gemini error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1081)
+2026-04-04 09:56:00,749 - INFO - 127.0.0.1 - - [04/Apr/2026 09:56:00] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-04 09:56:05,010 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 09:56:05,024 - ERROR - Gemini error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1081)
+2026-04-04 09:56:05,024 - INFO - 127.0.0.1 - - [04/Apr/2026 09:56:05] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-04 09:56:25,988 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 09:56:26,156 - ERROR - Gemini error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1081)
+2026-04-04 09:56:26,189 - INFO - 127.0.0.1 - - [04/Apr/2026 09:56:26] "POST /similar_medicine HTTP/1.1" 200 -
+2026-04-04 09:56:37,034 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 09:56:37,510 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 09:56:43,142 - WARNING -  * Debugger is active!
+2026-04-04 09:56:43,153 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 09:56:51,506 - INFO - 127.0.0.1 - - [04/Apr/2026 09:56:51] "POST /similar_medicine HTTP/1.1" 200 -
+2026-04-04 09:57:01,719 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 09:57:02,097 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 09:57:08,019 - WARNING -  * Debugger is active!
+2026-04-04 09:57:08,026 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 09:57:13,804 - INFO - 127.0.0.1 - - [04/Apr/2026 09:57:13] "POST /similar_medicine HTTP/1.1" 200 -
+2026-04-04 09:57:27,472 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 09:57:28,119 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 09:57:32,995 - WARNING -  * Debugger is active!
+2026-04-04 09:57:32,999 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 09:57:39,672 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 09:57:40,105 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 09:57:45,842 - WARNING -  * Debugger is active!
+2026-04-04 09:57:45,851 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 09:57:47,578 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 09:57:47,944 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 09:57:53,795 - WARNING -  * Debugger is active!
+2026-04-04 09:57:53,805 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 09:57:55,902 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 09:57:56,618 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 09:58:02,940 - WARNING -  * Debugger is active!
+2026-04-04 09:58:02,946 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 09:58:12,615 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 09:58:12,974 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 09:58:18,006 - WARNING -  * Debugger is active!
+2026-04-04 09:58:18,013 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 09:58:18,093 - INFO - 127.0.0.1 - - [04/Apr/2026 09:58:18] "POST /similar_medicine HTTP/1.1" 200 -
+2026-04-04 09:59:15,609 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\venv\\Lib\\site-packages\\streamlit\\env_util.py', reloading
+2026-04-04 09:59:16,208 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 09:59:21,875 - WARNING -  * Debugger is active!
+2026-04-04 09:59:21,882 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 09:59:34,196 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 09:59:34,197 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 09:59:34,215 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 09:59:39,890 - WARNING -  * Debugger is active!
+2026-04-04 09:59:39,902 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 09:59:47,834 - INFO - medicine_details: Paracitamol | Lang: English
+2026-04-04 09:59:47,841 - INFO - 127.0.0.1 - - [04/Apr/2026 09:59:47] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 10:00:14,133 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 10:00:26,986 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 10:00:27,009 - INFO - 127.0.0.1 - - [04/Apr/2026 10:00:27] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-04 10:01:39,738 - INFO - 127.0.0.1 - - [04/Apr/2026 10:01:39] "POST /similar_medicine HTTP/1.1" 200 -
+2026-04-04 10:01:52,288 - INFO - 127.0.0.1 - - [04/Apr/2026 10:01:52] "POST /similar_medicine HTTP/1.1" 200 -
+2026-04-04 10:01:57,951 - INFO - 127.0.0.1 - - [04/Apr/2026 10:01:57] "POST /similar_medicine HTTP/1.1" 200 -
+2026-04-04 10:02:11,106 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 10:02:23,837 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 10:02:23,850 - INFO - 127.0.0.1 - - [04/Apr/2026 10:02:23] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-04 10:03:42,910 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 10:03:55,528 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 10:03:55,530 - INFO - 127.0.0.1 - - [04/Apr/2026 10:03:55] "POST /medicine_links HTTP/1.1" 200 -
+2026-04-04 10:04:37,489 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 10:04:37,932 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 10:04:42,973 - WARNING -  * Debugger is active!
+2026-04-04 10:04:42,979 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 10:08:12,825 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 10:08:13,306 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 10:08:19,295 - WARNING -  * Debugger is active!
+2026-04-04 10:08:19,300 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 10:09:54,179 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 10:09:54,180 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 10:09:54,203 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 10:09:59,007 - WARNING -  * Debugger is active!
+2026-04-04 10:09:59,014 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 10:10:00,179 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 10:10:09,074 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 10:10:09,076 - INFO - 127.0.0.1 - - [04/Apr/2026 10:10:09] "POST /medicine_links HTTP/1.1" 200 -
+2026-04-04 10:10:29,413 - INFO - medicine_details: Paracitamol | Lang: English
+2026-04-04 10:10:29,422 - INFO - 127.0.0.1 - - [04/Apr/2026 10:10:29] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 10:10:44,552 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 10:10:57,530 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 10:10:57,533 - INFO - 127.0.0.1 - - [04/Apr/2026 10:10:57] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-04 10:14:30,913 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 10:14:31,373 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 10:14:36,947 - WARNING -  * Debugger is active!
+2026-04-04 10:14:36,954 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 10:17:58,920 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 10:17:58,921 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 10:17:59,484 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 10:18:04,985 - WARNING -  * Debugger is active!
+2026-04-04 10:18:04,989 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 10:18:28,423 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 10:18:28,721 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 10:18:34,240 - WARNING -  * Debugger is active!
+2026-04-04 10:18:34,246 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 10:19:23,132 - INFO - medicine_details: Abacavir | Lang: English
+2026-04-04 10:19:23,139 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 10:19:34,837 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 10:19:34,883 - INFO - 127.0.0.1 - - [04/Apr/2026 10:19:34] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 10:20:56,086 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 10:21:10,147 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 10:21:10,150 - INFO - 127.0.0.1 - - [04/Apr/2026 10:21:10] "POST /medicine_links HTTP/1.1" 200 -
+2026-04-04 11:32:25,147 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 11:32:25,570 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 11:32:32,239 - WARNING -  * Debugger is active!
+2026-04-04 11:32:32,247 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 11:32:56,764 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 11:32:56,771 - INFO - 127.0.0.1 - - [04/Apr/2026 11:32:56] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 11:32:56,782 - INFO - 127.0.0.1 - - [04/Apr/2026 11:32:56] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 11:41:55,811 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 11:41:55,811 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 11:41:55,834 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 11:42:00,414 - WARNING -  * Debugger is active!
+2026-04-04 11:42:00,418 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 11:42:22,806 - INFO - medicine_details: Paracetamol | Lang: English
+2026-04-04 11:42:22,817 - INFO - 127.0.0.1 - - [04/Apr/2026 11:42:22] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 11:42:23,363 - INFO - response: https://duckduckgo.com/?q=Paracetamol+medicine+product+box+packaging 200
+2026-04-04 11:42:24,744 - INFO - response: https://duckduckgo.com/i.js?o=json&q=Paracetamol+medicine+product+box+packaging&l=us-en&vqd=4-191538663378740573519854735728580774878&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 11:42:24,823 - INFO - 127.0.0.1 - - [04/Apr/2026 11:42:24] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 11:42:41,862 - INFO - medicine_details: Paracitamol | Lang: English
+2026-04-04 11:42:41,867 - INFO - 127.0.0.1 - - [04/Apr/2026 11:42:41] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 11:42:42,201 - INFO - response: https://duckduckgo.com/?q=Paracitamol+medicine+product+box+packaging 200
+2026-04-04 11:42:43,091 - INFO - response: https://duckduckgo.com/i.js?o=json&q=Paracitamol+medicine+product+box+packaging&l=us-en&vqd=4-224068024111089723616047373350606178458&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 11:42:43,093 - INFO - 127.0.0.1 - - [04/Apr/2026 11:42:43] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 11:43:11,933 - INFO - medicine_details: Abacavir | Lang: English
+2026-04-04 11:43:11,935 - INFO - 127.0.0.1 - - [04/Apr/2026 11:43:11] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 11:43:13,197 - INFO - response: https://duckduckgo.com/?q=Abacavir+medicine+product+box+packaging 200
+2026-04-04 11:43:14,509 - INFO - response: https://duckduckgo.com/i.js?o=json&q=Abacavir+medicine+product+box+packaging&l=us-en&vqd=4-40753123777215992750187847774421851140&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 11:43:14,511 - INFO - 127.0.0.1 - - [04/Apr/2026 11:43:14] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 11:43:52,102 - INFO - medicine_details: Abacavir | Lang: English
+2026-04-04 11:43:52,103 - INFO - 127.0.0.1 - - [04/Apr/2026 11:43:52] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 11:43:53,147 - INFO - response: https://duckduckgo.com/?q=Abacavir+medicine+product+box+packaging 200
+2026-04-04 11:43:54,777 - INFO - response: https://duckduckgo.com/i.js?o=json&q=Abacavir+medicine+product+box+packaging&l=us-en&vqd=4-40753123777215992750187847774421851140&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 11:43:55,090 - INFO - 127.0.0.1 - - [04/Apr/2026 11:43:55] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 11:46:40,983 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 11:46:41,334 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 11:46:47,589 - WARNING -  * Debugger is active!
+2026-04-04 11:46:47,600 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 11:47:01,918 - INFO - medicine_details: Abacavir | Lang: English
+2026-04-04 11:47:01,926 - INFO - 127.0.0.1 - - [04/Apr/2026 11:47:01] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 11:47:03,268 - INFO - response: https://duckduckgo.com/?q=Abacavir+medicine+product+box+packaging 200
+2026-04-04 11:47:04,890 - INFO - response: https://duckduckgo.com/i.js?o=json&q=Abacavir+medicine+product+box+packaging&l=us-en&vqd=4-40753123777215992750187847774421851140&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 11:47:05,210 - INFO - 127.0.0.1 - - [04/Apr/2026 11:47:05] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 11:47:29,220 - INFO - medicine_details: Abemaciclib | Lang: English
+2026-04-04 11:47:29,222 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 11:47:41,302 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 11:47:41,350 - INFO - 127.0.0.1 - - [04/Apr/2026 11:47:41] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 11:47:42,206 - INFO - response: https://duckduckgo.com/?q=Abemaciclib+medicine+product+box+packaging 200
+2026-04-04 11:47:43,372 - INFO - response: https://duckduckgo.com/i.js?o=json&q=Abemaciclib+medicine+product+box+packaging&l=us-en&vqd=4-270686663622459465342538567058765828291&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 11:47:43,373 - INFO - 127.0.0.1 - - [04/Apr/2026 11:47:43] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 11:48:33,425 - INFO - medicine_details: abemaciclib | Lang: English
+2026-04-04 11:48:33,429 - INFO - 127.0.0.1 - - [04/Apr/2026 11:48:33] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 11:48:34,429 - INFO - response: https://duckduckgo.com/?q=abemaciclib+medicine+product+box+packaging 200
+2026-04-04 11:48:35,671 - INFO - response: https://duckduckgo.com/i.js?o=json&q=abemaciclib+medicine+product+box+packaging&l=us-en&vqd=4-290058626012517550791346558016286388830&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 11:48:35,672 - INFO - 127.0.0.1 - - [04/Apr/2026 11:48:35] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 11:50:06,361 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 11:50:06,859 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 11:50:12,126 - WARNING -  * Debugger is active!
+2026-04-04 11:50:12,131 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 11:50:34,969 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 11:50:35,320 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 11:50:39,862 - WARNING -  * Debugger is active!
+2026-04-04 11:50:39,866 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 11:51:21,678 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 11:51:21,679 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 11:51:21,706 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 11:51:27,188 - WARNING -  * Debugger is active!
+2026-04-04 11:51:27,196 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 11:51:44,591 - INFO - medicine_details: Abemacilib | Lang: English
+2026-04-04 11:51:44,596 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 11:51:58,631 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 11:51:58,693 - INFO - 127.0.0.1 - - [04/Apr/2026 11:51:58] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 11:51:59,380 - INFO - response: https://duckduckgo.com/?q=Abemacilib+medicine+tablet 200
+2026-04-04 11:52:00,768 - INFO - response: https://duckduckgo.com/i.js?o=json&q=Abemacilib+medicine+tablet&l=us-en&vqd=4-140353873199543705064669451310076936851&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 11:52:00,838 - INFO - 127.0.0.1 - - [04/Apr/2026 11:52:00] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 11:56:31,045 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 11:56:31,047 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 11:56:31,480 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 11:56:37,310 - WARNING -  * Debugger is active!
+2026-04-04 11:56:37,315 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 11:59:09,469 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 11:59:10,007 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 11:59:14,956 - WARNING -  * Debugger is active!
+2026-04-04 11:59:14,961 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 12:05:46,579 - INFO - medicine_details: abemaciclib | Lang: English
+2026-04-04 12:05:46,586 - INFO - 127.0.0.1 - - [04/Apr/2026 12:05:46] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 12:05:47,141 - INFO - response: https://duckduckgo.com/?q=abemaciclib+medicine+tablet 200
+2026-04-04 12:05:47,979 - INFO - response: https://duckduckgo.com/i.js?o=json&q=abemaciclib+medicine+tablet&l=us-en&vqd=4-46890804166603504122142361196007861720&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 12:05:47,980 - INFO - 127.0.0.1 - - [04/Apr/2026 12:05:47] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 12:07:22,854 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 12:07:22,855 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 12:07:22,878 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 12:07:27,218 - WARNING -  * Debugger is active!
+2026-04-04 12:07:27,223 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 12:08:06,166 - INFO - medicine_details: paracetamol | Lang: English
+2026-04-04 12:08:06,175 - INFO - 127.0.0.1 - - [04/Apr/2026 12:08:06] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 12:08:06,881 - INFO - response: https://duckduckgo.com/?q=paracetamol+medicine+tablet 200
+2026-04-04 12:08:07,781 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracetamol+medicine+tablet&l=us-en&vqd=4-29510182482798557159942977890153053089&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 12:08:07,782 - INFO - 127.0.0.1 - - [04/Apr/2026 12:08:07] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 12:08:17,469 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 12:08:17,471 - INFO - 127.0.0.1 - - [04/Apr/2026 12:08:17] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 12:08:17,766 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 12:08:18,622 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672512984836491673855675713828173452&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 12:08:18,626 - INFO - 127.0.0.1 - - [04/Apr/2026 12:08:18] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 12:08:33,703 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 12:08:45,081 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 12:08:45,086 - INFO - 127.0.0.1 - - [04/Apr/2026 12:08:45] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-04 12:09:39,014 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\primp\\__init__.py', reloading
+2026-04-04 12:09:39,896 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 12:09:45,553 - WARNING -  * Debugger is active!
+2026-04-04 12:09:45,558 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 12:09:46,178 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 12:09:46,619 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 12:09:51,590 - WARNING -  * Debugger is active!
+2026-04-04 12:09:51,595 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 12:11:15,719 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\venv\\Lib\\site-packages\\streamlit\\env_util.py', reloading
+2026-04-04 12:11:16,287 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 12:11:20,340 - WARNING -  * Debugger is active!
+2026-04-04 12:11:20,344 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 12:12:55,531 - INFO - medicine_details: abemaciclib | Lang: English
+2026-04-04 12:12:55,533 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 12:13:07,013 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 12:13:07,064 - INFO - 127.0.0.1 - - [04/Apr/2026 12:13:07] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 12:13:07,839 - INFO - response: https://duckduckgo.com/?q=abemaciclib+medicine+tablet 200
+2026-04-04 12:13:08,696 - INFO - response: https://duckduckgo.com/i.js?o=json&q=abemaciclib+medicine+tablet&l=us-en&vqd=4-46890804166603504122142361196007861720&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 12:13:08,697 - INFO - 127.0.0.1 - - [04/Apr/2026 12:13:08] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 12:34:06,627 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 12:34:07,053 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 12:34:13,053 - WARNING -  * Debugger is active!
+2026-04-04 12:34:13,057 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 12:36:21,809 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 12:36:21,809 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 12:36:21,830 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 12:36:26,825 - WARNING -  * Debugger is active!
+2026-04-04 12:36:26,830 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 12:36:53,682 - INFO - medicine_details: paracitamo | Lang: English
+2026-04-04 12:36:53,687 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 12:37:07,781 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 12:37:07,834 - INFO - 127.0.0.1 - - [04/Apr/2026 12:37:07] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 12:37:09,382 - INFO - response: https://duckduckgo.com/?q=paracitamo+medicine+tablet 200
+2026-04-04 12:37:10,643 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamo+medicine+tablet&l=us-en&vqd=4-228007046061579006254076007554215908674&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 12:37:10,644 - INFO - 127.0.0.1 - - [04/Apr/2026 12:37:10] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 13:32:22,854 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 13:32:23,324 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 13:32:30,033 - WARNING -  * Debugger is active!
+2026-04-04 13:32:30,037 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 13:33:13,244 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\venv\\Lib\\site-packages\\streamlit\\env_util.py', reloading
+2026-04-04 13:33:13,808 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 13:33:18,473 - WARNING -  * Debugger is active!
+2026-04-04 13:33:18,477 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 13:33:49,796 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 13:33:49,798 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 13:33:59,290 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 13:33:59,330 - INFO - 127.0.0.1 - - [04/Apr/2026 13:33:59] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 13:33:59,895 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 13:34:00,816 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672130154355093473794002569361382252&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 13:34:00,816 - INFO - 127.0.0.1 - - [04/Apr/2026 13:34:00] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 13:38:40,707 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 13:38:41,227 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 13:38:46,934 - WARNING -  * Debugger is active!
+2026-04-04 13:38:46,939 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 13:43:48,342 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 13:43:48,347 - INFO - 127.0.0.1 - - [04/Apr/2026 13:43:48] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 13:43:49,564 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 13:43:50,824 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672130154355093473794002569361382252&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 13:43:50,827 - INFO - 127.0.0.1 - - [04/Apr/2026 13:43:50] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 13:44:38,399 - INFO - medicine_details: paracitamol | Lang: Gujarati
+2026-04-04 13:44:38,402 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 13:44:51,646 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 13:44:51,696 - INFO - 127.0.0.1 - - [04/Apr/2026 13:44:51] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 13:45:01,662 - INFO - medicine_details: paracitamol | Lang: Gujarati
+2026-04-04 13:45:01,664 - INFO - 127.0.0.1 - - [04/Apr/2026 13:45:01] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 13:45:02,512 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 13:45:04,226 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672130154355093473794002569361382252&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 13:45:04,473 - INFO - 127.0.0.1 - - [04/Apr/2026 13:45:04] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 13:47:14,954 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 13:47:15,304 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 13:47:19,982 - WARNING -  * Debugger is active!
+2026-04-04 13:47:19,986 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 13:50:04,299 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 13:50:04,692 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 13:50:09,663 - WARNING -  * Debugger is active!
+2026-04-04 13:50:09,667 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 13:56:06,540 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 13:56:06,542 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 13:56:06,560 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 13:56:07,196 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 13:56:13,725 - WARNING -  * Debugger is active!
+2026-04-04 13:56:13,729 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:02:43,425 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:02:43,431 - INFO - 127.0.0.1 - - [04/Apr/2026 14:02:43] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:02:45,232 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:02:46,615 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672130154355093473794002569361382252&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:02:46,616 - INFO - 127.0.0.1 - - [04/Apr/2026 14:02:46] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:03:05,447 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:03:05,449 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:03:05,837 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:03:10,747 - WARNING -  * Debugger is active!
+2026-04-04 14:03:10,751 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:03:17,843 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:03:18,643 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:03:23,584 - WARNING -  * Debugger is active!
+2026-04-04 14:03:23,589 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:03:26,112 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:03:26,115 - INFO - 127.0.0.1 - - [04/Apr/2026 14:03:26] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:03:27,179 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:03:28,933 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672130154355093473794002569361382252&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 14:03:29,451 - INFO - 127.0.0.1 - - [04/Apr/2026 14:03:29] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 14:03:46,658 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:03:46,661 - INFO - 127.0.0.1 - - [04/Apr/2026 14:03:46] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:03:47,668 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:03:48,974 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672130154355093473794002569361382252&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:03:48,975 - INFO - 127.0.0.1 - - [04/Apr/2026 14:03:48] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:05:43,843 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:05:44,652 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:05:50,415 - WARNING -  * Debugger is active!
+2026-04-04 14:05:50,424 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:07:29,483 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:07:29,486 - INFO - 127.0.0.1 - - [04/Apr/2026 14:07:29] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:07:29,784 - INFO - 127.0.0.1 - - [04/Apr/2026 14:07:29] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:08:16,537 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:08:16,539 - INFO - 127.0.0.1 - - [04/Apr/2026 14:08:16] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:08:16,900 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:08:17,732 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672130154355093473794002569361382252&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:08:17,733 - INFO - 127.0.0.1 - - [04/Apr/2026 14:08:17] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:09:40,463 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:09:40,466 - ERROR - DB Error getting cache: no such table: db_cache
+2026-04-04 14:09:40,466 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 14:09:55,637 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 14:09:55,657 - ERROR - DB Error upserting cache: no such table: db_cache
+2026-04-04 14:09:55,657 - INFO - 127.0.0.1 - - [04/Apr/2026 14:09:55] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:09:55,952 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:09:56,829 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672130154355093473794002569361382252&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:09:56,831 - INFO - 127.0.0.1 - - [04/Apr/2026 14:09:56] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:11:35,637 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:11:35,638 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:11:36,093 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:11:42,474 - WARNING -  * Debugger is active!
+2026-04-04 14:11:42,478 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:12:01,709 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:12:01,710 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 14:12:16,118 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 14:12:16,152 - INFO - 127.0.0.1 - - [04/Apr/2026 14:12:16] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:12:16,620 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:12:17,482 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672130154355093473794002569361382252&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:12:17,483 - INFO - 127.0.0.1 - - [04/Apr/2026 14:12:17] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:12:41,868 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 14:12:41,870 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 14:12:41,893 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:12:45,370 - WARNING -  * Debugger is active!
+2026-04-04 14:12:45,374 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:13:44,074 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 14:13:44,074 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 14:13:44,093 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:13:49,294 - WARNING -  * Debugger is active!
+2026-04-04 14:13:49,299 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:13:58,201 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:13:58,205 - INFO - 127.0.0.1 - - [04/Apr/2026 14:13:58] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:13:58,949 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:14:00,105 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672130154355093473794002569361382252&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:14:00,105 - INFO - 127.0.0.1 - - [04/Apr/2026 14:14:00] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:14:41,765 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 14:14:41,766 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 14:14:41,769 - INFO -  * Restarting with stat
+2026-04-04 14:14:45,235 - WARNING -  * Debugger is active!
+2026-04-04 14:14:45,238 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 14:16:20,680 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:16:20,682 - INFO - 127.0.0.1 - - [04/Apr/2026 14:16:20] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:16:21,015 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:16:22,272 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672130154355093473794002569361382252&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 14:16:22,351 - INFO - 127.0.0.1 - - [04/Apr/2026 14:16:22] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 14:18:19,853 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:18:19,926 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:18:20,540 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:18:20,596 - INFO -  * Restarting with stat
+2026-04-04 14:18:27,036 - WARNING -  * Debugger is active!
+2026-04-04 14:18:27,041 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 14:18:27,222 - WARNING -  * Debugger is active!
+2026-04-04 14:18:27,227 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:18:50,070 - INFO - 127.0.0.1 - - [04/Apr/2026 14:18:50] "[31m[1mPOST /medicine_details HTTP/1.1[0m" 401 -
+2026-04-04 14:19:09,089 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:19:09,110 - INFO - 127.0.0.1 - - [04/Apr/2026 14:19:09] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:20:18,563 - INFO - medicine_details: test | Lang: English
+2026-04-04 14:20:18,564 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 14:20:25,095 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 14:20:25,135 - INFO - 127.0.0.1 - - [04/Apr/2026 14:20:25] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:21:33,109 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:21:33,324 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:21:33,626 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:21:33,913 - INFO -  * Restarting with stat
+2026-04-04 14:21:39,842 - WARNING -  * Debugger is active!
+2026-04-04 14:21:39,847 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:21:39,900 - WARNING -  * Debugger is active!
+2026-04-04 14:21:39,906 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 14:23:19,903 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:23:19,907 - INFO - 127.0.0.1 - - [04/Apr/2026 14:23:19] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:23:21,058 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:23:22,447 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672130154355093473794002569361382252&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 14:23:22,691 - INFO - 127.0.0.1 - - [04/Apr/2026 14:23:22] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 14:23:56,673 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:23:56,770 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:23:57,153 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:23:57,226 - INFO -  * Restarting with stat
+2026-04-04 14:24:03,773 - WARNING -  * Debugger is active!
+2026-04-04 14:24:03,777 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 14:24:03,838 - WARNING -  * Debugger is active!
+2026-04-04 14:24:03,843 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:24:32,249 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:24:32,251 - INFO - 127.0.0.1 - - [04/Apr/2026 14:24:32] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:24:33,164 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:24:34,281 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672130154355093473794002569361382252&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:24:34,281 - INFO - 127.0.0.1 - - [04/Apr/2026 14:24:34] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:25:27,636 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:25:28,116 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:25:28,330 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:25:28,746 - INFO -  * Restarting with stat
+2026-04-04 14:25:35,748 - WARNING -  * Debugger is active!
+2026-04-04 14:25:35,753 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:25:36,290 - WARNING -  * Debugger is active!
+2026-04-04 14:25:36,294 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 14:27:18,467 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:27:18,800 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:27:19,056 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:27:19,974 - INFO -  * Restarting with stat
+2026-04-04 14:27:25,587 - WARNING -  * Debugger is active!
+2026-04-04 14:27:25,593 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:27:25,880 - WARNING -  * Debugger is active!
+2026-04-04 14:27:25,884 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 14:28:13,952 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:28:14,226 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:28:14,303 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:28:14,903 - INFO -  * Restarting with stat
+2026-04-04 14:28:21,966 - WARNING -  * Debugger is active!
+2026-04-04 14:28:21,971 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:28:22,169 - WARNING -  * Debugger is active!
+2026-04-04 14:28:22,175 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 14:30:05,898 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:30:06,540 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:30:06,879 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:30:07,537 - INFO -  * Restarting with stat
+2026-04-04 14:30:11,832 - WARNING -  * Debugger is active!
+2026-04-04 14:30:11,835 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:30:12,054 - WARNING -  * Debugger is active!
+2026-04-04 14:30:12,058 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 14:31:25,884 - INFO - medicine_details: Paracitamol | Lang: English
+2026-04-04 14:31:25,885 - INFO - 127.0.0.1 - - [04/Apr/2026 14:31:25] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:31:26,462 - INFO - response: https://duckduckgo.com/?q=Paracitamol+medicine+tablet 200
+2026-04-04 14:31:27,715 - INFO - response: https://duckduckgo.com/i.js?o=json&q=Paracitamol+medicine+tablet&l=us-en&vqd=4-66197449952382578950583607609782850742&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 14:31:27,717 - INFO - 127.0.0.1 - - [04/Apr/2026 14:31:27] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 14:32:17,272 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 14:32:17,273 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 14:32:17,295 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:32:20,759 - WARNING -  * Debugger is active!
+2026-04-04 14:32:20,762 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:32:41,297 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:32:41,298 - INFO - 127.0.0.1 - - [04/Apr/2026 14:32:41] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:32:42,147 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:32:43,017 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:32:43,018 - INFO - 127.0.0.1 - - [04/Apr/2026 14:32:43] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:33:32,815 - INFO - 127.0.0.1 - - [04/Apr/2026 14:33:32] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-04 14:34:25,765 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:34:25,935 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:34:26,241 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:34:26,400 - INFO -  * Restarting with stat
+2026-04-04 14:34:33,174 - WARNING -  * Debugger is active!
+2026-04-04 14:34:33,178 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 14:34:33,219 - WARNING -  * Debugger is active!
+2026-04-04 14:34:33,223 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:34:57,619 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 14:34:57,619 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 14:34:57,649 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:35:01,650 - WARNING -  * Debugger is active!
+2026-04-04 14:35:01,654 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:35:06,186 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:35:06,188 - INFO - 127.0.0.1 - - [04/Apr/2026 14:35:06] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:35:06,608 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:35:07,504 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:35:07,505 - INFO - 127.0.0.1 - - [04/Apr/2026 14:35:07] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:36:03,948 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:36:04,594 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:36:04,888 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:36:05,325 - INFO -  * Restarting with stat
+2026-04-04 14:36:10,265 - WARNING -  * Debugger is active!
+2026-04-04 14:36:10,269 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:36:10,501 - WARNING -  * Debugger is active!
+2026-04-04 14:36:10,504 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 14:36:38,955 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:36:38,960 - INFO - 127.0.0.1 - - [04/Apr/2026 14:36:38] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:36:39,504 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:36:40,376 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:36:40,377 - INFO - 127.0.0.1 - - [04/Apr/2026 14:36:40] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:37:05,002 - INFO - medicine_details: paracitamol | Lang: Gujarati
+2026-04-04 14:37:05,004 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 14:37:06,109 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-04-04 14:37:06,127 - ERROR - Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-04-04 14:37:06,144 - INFO - 127.0.0.1 - - [04/Apr/2026 14:37:06] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:37:06,424 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:37:07,853 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 14:37:07,938 - INFO - 127.0.0.1 - - [04/Apr/2026 14:37:07] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 14:40:09,831 - INFO - medicine_details: paracitamol | Lang: Gujarati
+2026-04-04 14:40:09,832 - ERROR - DB Error getting cache: no such table: db_cache
+2026-04-04 14:40:09,832 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 14:40:10,698 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-04-04 14:40:10,699 - ERROR - Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-04-04 14:40:10,700 - ERROR - DB Error upserting cache: no such table: db_cache
+2026-04-04 14:40:10,700 - INFO - 127.0.0.1 - - [04/Apr/2026 14:40:10] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:40:11,073 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:40:11,967 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:40:11,967 - INFO - 127.0.0.1 - - [04/Apr/2026 14:40:11] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:40:54,973 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:40:55,264 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:40:55,316 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:40:56,049 - INFO -  * Restarting with stat
+2026-04-04 14:41:02,471 - WARNING -  * Debugger is active!
+2026-04-04 14:41:02,475 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:41:02,669 - WARNING -  * Debugger is active!
+2026-04-04 14:41:02,672 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 14:41:07,964 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:41:07,965 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 14:41:08,281 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-04-04 14:41:08,283 - ERROR - Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-04-04 14:41:08,311 - INFO - 127.0.0.1 - - [04/Apr/2026 14:41:08] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:41:08,928 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:41:10,466 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 14:41:10,467 - INFO - 127.0.0.1 - - [04/Apr/2026 14:41:10] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 14:44:30,039 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:44:30,581 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:44:35,992 - WARNING -  * Debugger is active!
+2026-04-04 14:44:35,996 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:44:56,940 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 14:44:57,445 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:45:01,898 - WARNING -  * Debugger is active!
+2026-04-04 14:45:01,902 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:48:33,525 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:48:33,691 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:48:34,624 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:48:34,949 - INFO -  * Restarting with stat
+2026-04-04 14:48:40,666 - WARNING -  * Debugger is active!
+2026-04-04 14:48:40,670 - WARNING -  * Debugger is active!
+2026-04-04 14:48:40,670 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 14:48:40,675 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:49:10,507 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 14:49:10,507 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 14:49:10,534 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:49:16,149 - WARNING -  * Debugger is active!
+2026-04-04 14:49:16,153 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:49:18,041 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:49:18,042 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 14:49:18,346 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-04-04 14:49:18,347 - ERROR - Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-04-04 14:49:18,379 - INFO - 127.0.0.1 - - [04/Apr/2026 14:49:18] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:49:18,859 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:49:19,997 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 14:49:20,002 - INFO - 127.0.0.1 - - [04/Apr/2026 14:49:20] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 14:49:23,362 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:49:23,364 - INFO - 127.0.0.1 - - [04/Apr/2026 14:49:23] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:49:23,694 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:49:24,531 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:49:24,532 - INFO - 127.0.0.1 - - [04/Apr/2026 14:49:24] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:49:36,456 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:49:36,460 - INFO - 127.0.0.1 - - [04/Apr/2026 14:49:36] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:49:36,724 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:49:37,610 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:49:37,611 - INFO - 127.0.0.1 - - [04/Apr/2026 14:49:37] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:52:39,702 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:52:40,470 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:52:40,602 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:52:40,970 - INFO -  * Restarting with stat
+2026-04-04 14:52:46,609 - WARNING -  * Debugger is active!
+2026-04-04 14:52:46,616 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:52:46,944 - WARNING -  * Debugger is active!
+2026-04-04 14:52:46,949 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 14:52:53,607 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:52:53,609 - INFO - 127.0.0.1 - - [04/Apr/2026 14:52:53] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:52:54,337 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:52:55,184 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:52:55,185 - INFO - 127.0.0.1 - - [04/Apr/2026 14:52:55] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:53:44,084 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:53:44,451 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:53:44,885 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:53:45,292 - INFO -  * Restarting with stat
+2026-04-04 14:53:51,232 - WARNING -  * Debugger is active!
+2026-04-04 14:53:51,240 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:53:51,400 - WARNING -  * Debugger is active!
+2026-04-04 14:53:51,404 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 14:53:56,822 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:53:56,827 - INFO - 127.0.0.1 - - [04/Apr/2026 14:53:56] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:53:57,283 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:53:58,118 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:53:58,118 - INFO - 127.0.0.1 - - [04/Apr/2026 14:53:58] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:56:05,774 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 14:56:05,774 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 14:56:05,794 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:56:10,186 - WARNING -  * Debugger is active!
+2026-04-04 14:56:10,191 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:56:10,686 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 14:56:10,687 - INFO - 127.0.0.1 - - [04/Apr/2026 14:56:10] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 14:56:11,834 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 14:56:13,134 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 14:56:13,134 - INFO - 127.0.0.1 - - [04/Apr/2026 14:56:13] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 14:56:58,678 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:56:58,752 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:56:59,238 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:56:59,341 - INFO -  * Restarting with stat
+2026-04-04 14:57:04,544 - WARNING -  * Debugger is active!
+2026-04-04 14:57:04,545 - WARNING -  * Debugger is active!
+2026-04-04 14:57:04,548 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 14:57:04,549 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:57:17,759 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\google\\generativeai\\__init__.py', reloading
+2026-04-04 14:57:18,356 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 14:57:19,686 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 14:57:20,209 - INFO -  * Restarting with stat
+2026-04-04 14:57:24,753 - WARNING -  * Debugger is active!
+2026-04-04 14:57:24,757 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 14:57:37,400 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\google\\generativeai\\generative_models.py', reloading
+2026-04-04 14:57:37,841 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:01:06,579 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 15:01:06,579 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 15:01:06,597 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:01:11,326 - WARNING -  * Debugger is active!
+2026-04-04 15:01:11,331 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:01:19,373 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:01:19,378 - INFO - 127.0.0.1 - - [04/Apr/2026 15:01:19] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:01:20,701 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:01:21,893 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 15:01:21,894 - INFO - 127.0.0.1 - - [04/Apr/2026 15:01:21] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 15:02:10,889 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 15:02:10,889 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 15:02:10,909 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:02:15,158 - WARNING -  * Debugger is active!
+2026-04-04 15:02:15,162 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:02:25,058 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 15:02:25,410 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-04-04 15:02:25,411 - ERROR - Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-04-04 15:02:25,412 - INFO - 127.0.0.1 - - [04/Apr/2026 15:02:25] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-04 15:04:21,114 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:04:21,120 - INFO - 127.0.0.1 - - [04/Apr/2026 15:04:21] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:04:22,319 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:04:23,857 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 15:04:24,083 - INFO - 127.0.0.1 - - [04/Apr/2026 15:04:24] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 15:06:15,779 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:06:16,760 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:09:49,094 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 15:09:49,095 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 15:09:49,122 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:09:50,717 - WARNING -  * Debugger is active!
+2026-04-04 15:09:50,721 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:10:09,942 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:10:09,944 - INFO - 127.0.0.1 - - [04/Apr/2026 15:10:09] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:10:11,199 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:10:12,341 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 15:10:12,342 - INFO - 127.0.0.1 - - [04/Apr/2026 15:10:12] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 15:11:12,481 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 15:11:12,481 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 15:11:12,483 - INFO -  * Restarting with stat
+2026-04-04 15:11:14,477 - WARNING -  * Debugger is active!
+2026-04-04 15:11:14,482 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 15:11:36,188 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:11:36,190 - INFO - 127.0.0.1 - - [04/Apr/2026 15:11:36] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:11:36,975 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:11:38,495 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 15:11:38,719 - INFO - 127.0.0.1 - - [04/Apr/2026 15:11:38] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 15:14:05,495 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:14:05,786 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:14:05,812 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:14:06,472 - INFO -  * Restarting with stat
+2026-04-04 15:14:09,121 - WARNING -  * Debugger is active!
+2026-04-04 15:14:09,126 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:14:09,274 - WARNING -  * Debugger is active!
+2026-04-04 15:14:09,280 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 15:14:46,820 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:14:47,108 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:14:47,571 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:14:47,861 - INFO -  * Restarting with stat
+2026-04-04 15:14:51,097 - WARNING -  * Debugger is active!
+2026-04-04 15:14:51,103 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:14:51,699 - WARNING -  * Debugger is active!
+2026-04-04 15:14:51,705 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 15:15:00,549 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:15:00,552 - INFO - 127.0.0.1 - - [04/Apr/2026 15:15:00] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:15:00,990 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:15:02,215 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 15:15:02,304 - INFO - 127.0.0.1 - - [04/Apr/2026 15:15:02] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 15:15:33,613 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:15:34,311 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:15:34,360 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:15:34,706 - INFO -  * Restarting with stat
+2026-04-04 15:15:38,297 - WARNING -  * Debugger is active!
+2026-04-04 15:15:38,306 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 15:15:38,327 - WARNING -  * Debugger is active!
+2026-04-04 15:15:38,337 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:17:39,194 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:17:39,443 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:17:39,964 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:17:40,283 - INFO -  * Restarting with stat
+2026-04-04 15:17:42,600 - WARNING -  * Debugger is active!
+2026-04-04 15:17:42,608 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:17:42,990 - WARNING -  * Debugger is active!
+2026-04-04 15:17:42,997 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 15:18:00,400 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:18:00,408 - INFO - 127.0.0.1 - - [04/Apr/2026 15:18:00] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:18:01,185 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:18:02,467 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 15:18:02,468 - INFO - 127.0.0.1 - - [04/Apr/2026 15:18:02] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 15:18:23,169 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:18:23,393 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:18:23,424 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:18:23,655 - INFO -  * Restarting with stat
+2026-04-04 15:18:26,148 - WARNING -  * Debugger is active!
+2026-04-04 15:18:26,154 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:18:26,272 - WARNING -  * Debugger is active!
+2026-04-04 15:18:26,276 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 15:19:01,092 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 15:19:01,323 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:19:01,542 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 15:19:01,779 - INFO -  * Restarting with stat
+2026-04-04 15:19:03,698 - WARNING -  * Debugger is active!
+2026-04-04 15:19:03,704 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:19:04,179 - WARNING -  * Debugger is active!
+2026-04-04 15:19:04,184 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 15:19:14,230 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:19:14,233 - INFO - 127.0.0.1 - - [04/Apr/2026 15:19:14] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:19:14,771 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:19:15,717 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 15:19:15,718 - INFO - 127.0.0.1 - - [04/Apr/2026 15:19:15] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 15:21:22,117 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:21:22,450 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:21:22,770 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:21:23,213 - INFO -  * Restarting with stat
+2026-04-04 15:21:25,382 - WARNING -  * Debugger is active!
+2026-04-04 15:21:25,388 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:21:25,638 - WARNING -  * Debugger is active!
+2026-04-04 15:21:25,642 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 15:21:25,797 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:21:26,061 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:21:26,665 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:21:26,960 - INFO -  * Restarting with stat
+2026-04-04 15:21:28,846 - WARNING -  * Debugger is active!
+2026-04-04 15:21:28,850 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:21:29,268 - WARNING -  * Debugger is active!
+2026-04-04 15:21:29,273 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 15:21:55,017 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:21:55,020 - INFO - 127.0.0.1 - - [04/Apr/2026 15:21:55] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:21:56,860 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:21:57,782 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 15:21:57,782 - INFO - 127.0.0.1 - - [04/Apr/2026 15:21:57] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 15:22:23,093 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:22:23,347 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:22:23,718 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:22:23,951 - INFO -  * Restarting with stat
+2026-04-04 15:22:26,275 - WARNING -  * Debugger is active!
+2026-04-04 15:22:26,284 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:22:27,313 - WARNING -  * Debugger is active!
+2026-04-04 15:22:27,318 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 15:25:51,021 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:25:51,087 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:25:51,357 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:25:51,392 - INFO -  * Restarting with stat
+2026-04-04 15:25:54,555 - WARNING -  * Debugger is active!
+2026-04-04 15:25:54,564 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 15:25:54,650 - WARNING -  * Debugger is active!
+2026-04-04 15:25:54,654 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:26:02,599 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:26:02,603 - INFO - 127.0.0.1 - - [04/Apr/2026 15:26:02] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:26:03,700 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:26:04,838 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 15:26:04,838 - INFO - 127.0.0.1 - - [04/Apr/2026 15:26:04] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 15:27:26,432 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:27:26,715 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:27:27,439 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:27:27,835 - INFO -  * Restarting with stat
+2026-04-04 15:27:30,290 - WARNING -  * Debugger is active!
+2026-04-04 15:27:30,298 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:27:31,132 - WARNING -  * Debugger is active!
+2026-04-04 15:27:31,140 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 15:27:53,415 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:27:53,423 - INFO - 127.0.0.1 - - [04/Apr/2026 15:27:53] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:27:54,002 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:27:54,959 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67672412840439047965865265350853807484&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 15:27:54,960 - INFO - 127.0.0.1 - - [04/Apr/2026 15:27:54] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 15:33:24,297 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:33:24,299 - INFO - 127.0.0.1 - - [04/Apr/2026 15:33:24] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:33:24,782 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:33:25,644 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671402522910430834151864394125705036&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 15:33:25,645 - INFO - 127.0.0.1 - - [04/Apr/2026 15:33:25] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 15:41:19,256 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:41:19,893 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 15:41:20,077 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:41:21,126 - INFO -  * Restarting with stat
+2026-04-04 15:41:26,256 - WARNING -  * Debugger is active!
+2026-04-04 15:41:26,264 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:41:26,306 - WARNING -  * Debugger is active!
+2026-04-04 15:41:26,312 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 15:41:36,207 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:41:36,210 - INFO - 127.0.0.1 - - [04/Apr/2026 15:41:36] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:41:37,487 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:41:38,674 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671402522910430834151864394125705036&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 15:41:38,674 - ERROR - get_image error: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671402522910430834151864394125705036&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+2026-04-04 15:41:38,674 - INFO - 127.0.0.1 - - [04/Apr/2026 15:41:38] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 15:43:21,893 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 15:43:21,893 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 15:43:21,923 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:43:24,591 - WARNING -  * Debugger is active!
+2026-04-04 15:43:24,594 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:43:37,604 - INFO - medicine_details: peracitamol | Lang: English
+2026-04-04 15:43:39,269 - ERROR - Gemini error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-04 15:43:39,287 - INFO - 127.0.0.1 - - [04/Apr/2026 15:43:39] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:43:39,885 - INFO - response: https://duckduckgo.com/?q=peracitamol+medicine+tablet 200
+2026-04-04 15:43:41,103 - INFO - response: https://duckduckgo.com/i.js?o=json&q=peracitamol+medicine+tablet&l=us-en&vqd=4-319229598292621079152229668188345175663&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 15:43:41,167 - INFO - 127.0.0.1 - - [04/Apr/2026 15:43:41] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 15:44:07,476 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:44:07,480 - INFO - 127.0.0.1 - - [04/Apr/2026 15:44:07] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:44:07,844 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:44:08,729 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671402522910430834151864394125705036&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 15:44:08,729 - ERROR - get_image error: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671402522910430834151864394125705036&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+2026-04-04 15:44:08,729 - INFO - 127.0.0.1 - - [04/Apr/2026 15:44:08] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 15:44:48,717 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:44:48,719 - INFO - 127.0.0.1 - - [04/Apr/2026 15:44:48] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:44:49,026 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:44:50,350 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671402522910430834151864394125705036&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 15:44:50,352 - INFO - 127.0.0.1 - - [04/Apr/2026 15:44:50] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 15:45:46,874 - ERROR - Gemini error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-04 15:45:46,889 - INFO - 127.0.0.1 - - [04/Apr/2026 15:45:46] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-04 15:47:07,962 - INFO - 127.0.0.1 - - [04/Apr/2026 15:47:07] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-04 15:52:19,440 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:52:19,443 - INFO - 127.0.0.1 - - [04/Apr/2026 15:52:19] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:52:19,844 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:52:21,090 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671402522910430834151864394125705036&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 15:52:21,232 - INFO - 127.0.0.1 - - [04/Apr/2026 15:52:21] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 15:56:43,576 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 15:56:43,576 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 15:56:43,612 - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-04 15:56:46,067 - WARNING -  * Debugger is active!
+2026-04-04 15:56:46,073 - INFO -  * Debugger PIN: 353-416-035
+2026-04-04 15:59:26,268 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 15:59:26,268 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 15:59:26,277 - INFO -  * Restarting with stat
+2026-04-04 15:59:28,426 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 15:59:28,429 - INFO - 127.0.0.1 - - [04/Apr/2026 15:59:28] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 15:59:28,843 - WARNING -  * Debugger is active!
+2026-04-04 15:59:28,847 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 15:59:28,874 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 15:59:29,716 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671402522910430834151864394125705036&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 15:59:29,739 - ERROR - get_image error: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671402522910430834151864394125705036&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+2026-04-04 15:59:29,741 - INFO - 127.0.0.1 - - [04/Apr/2026 15:59:29] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 16:00:24,614 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-04 16:00:24,614 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-04 16:00:24,617 - INFO -  * Restarting with stat
+2026-04-04 16:00:26,675 - WARNING -  * Debugger is active!
+2026-04-04 16:00:26,679 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 16:00:39,932 - INFO - 127.0.0.1 - - [04/Apr/2026 16:00:39] "[31m[1mPOST /medicine_details HTTP/1.1[0m" 401 -
+2026-04-04 16:01:05,862 - INFO - 127.0.0.1 - - [04/Apr/2026 16:01:05] "[31m[1mPOST /medicine_details HTTP/1.1[0m" 401 -
+2026-04-04 16:01:39,678 - INFO - medicine_details: Aspirin | Lang: English
+2026-04-04 16:02:03,725 - ERROR - Gemini error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-04-04 16:02:03,746 - INFO - 127.0.0.1 - - [04/Apr/2026 16:02:03] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 16:03:42,512 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 16:03:42,839 - INFO -  * Restarting with stat
+2026-04-04 16:03:43,005 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 16:03:43,012 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 16:03:43,396 - INFO -  * Restarting with stat
+2026-04-04 16:03:50,894 - WARNING -  * Debugger is active!
+2026-04-04 16:03:50,899 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 16:03:51,743 - WARNING -  * Debugger is active!
+2026-04-04 16:03:51,747 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 16:03:53,606 - INFO - medicine_details: Aspirin | Lang: English
+2026-04-04 16:03:53,608 - INFO - 127.0.0.1 - - [04/Apr/2026 16:03:53] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 16:04:25,226 - INFO - medicine_details: Ibuprofen | Lang: English
+2026-04-04 16:04:25,227 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 16:04:36,877 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 16:04:36,936 - INFO - 127.0.0.1 - - [04/Apr/2026 16:04:36] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 16:05:42,395 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 16:05:42,401 - INFO - 127.0.0.1 - - [04/Apr/2026 16:05:42] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 16:05:44,148 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 16:05:45,604 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671402522910430834151864394125705036&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 16:05:45,604 - ERROR - get_image error: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671402522910430834151864394125705036&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+2026-04-04 16:05:45,607 - INFO - 127.0.0.1 - - [04/Apr/2026 16:05:45] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 16:06:43,085 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 16:06:43,086 - INFO - 127.0.0.1 - - [04/Apr/2026 16:06:43] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 16:07:48,982 - INFO - medicine_details: paracetamol | Lang: English
+2026-04-04 16:07:48,983 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 16:08:00,540 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 16:08:00,580 - INFO - 127.0.0.1 - - [04/Apr/2026 16:08:00] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 16:09:14,028 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 16:09:36,867 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 16:09:36,912 - INFO - 127.0.0.1 - - [04/Apr/2026 16:09:36] "POST /similar_medicine HTTP/1.1" 200 -
+2026-04-04 16:10:15,854 - INFO - medicine_details: peracitamol | Lang: English
+2026-04-04 16:10:15,858 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 16:10:24,830 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 16:10:24,870 - INFO - 127.0.0.1 - - [04/Apr/2026 16:10:24] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 16:10:25,247 - INFO - response: https://duckduckgo.com/?q=peracitamol+medicine+tablet 200
+2026-04-04 16:10:26,086 - INFO - response: https://duckduckgo.com/i.js?o=json&q=peracitamol+medicine+tablet&l=us-en&vqd=4-319229598292621079152229668188345175663&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 16:10:26,086 - ERROR - get_image error: https://duckduckgo.com/i.js?o=json&q=peracitamol+medicine+tablet&l=us-en&vqd=4-319229598292621079152229668188345175663&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+2026-04-04 16:10:26,087 - INFO - 127.0.0.1 - - [04/Apr/2026 16:10:26] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 16:13:43,961 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 16:14:04,400 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 16:14:04,432 - INFO - 127.0.0.1 - - [04/Apr/2026 16:14:04] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-04 16:14:04,456 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 16:14:20,121 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 16:14:20,154 - INFO - 127.0.0.1 - - [04/Apr/2026 16:14:20] "POST /similar_medicine HTTP/1.1" 200 -
+2026-04-04 16:14:37,204 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 16:14:37,751 - INFO -  * Restarting with stat
+2026-04-04 16:14:38,268 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 16:14:39,008 - INFO -  * Restarting with stat
+2026-04-04 16:14:45,848 - WARNING -  * Debugger is active!
+2026-04-04 16:14:45,853 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 16:14:46,487 - WARNING -  * Debugger is active!
+2026-04-04 16:14:46,492 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 16:15:00,914 - INFO - response: https://duckduckgo.com/?q=paracetamol+medicine+tablet 200
+2026-04-04 16:15:01,760 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracetamol+medicine+tablet&l=us-en&vqd=4-29509072020872501042605491660177207905&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 16:15:01,760 - WARNING - DDGS failed, falling back to Wikipedia: https://duckduckgo.com/i.js?o=json&q=paracetamol+medicine+tablet&l=us-en&vqd=4-29509072020872501042605491660177207905&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+2026-04-04 16:15:03,361 - ERROR - get_image fallback error: Expecting value: line 1 column 1 (char 0)
+2026-04-04 16:15:03,364 - INFO - 127.0.0.1 - - [04/Apr/2026 16:15:03] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 16:15:18,981 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 16:15:19,473 - INFO -  * Restarting with stat
+2026-04-04 16:15:19,521 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 16:15:20,169 - INFO -  * Restarting with stat
+2026-04-04 16:15:26,333 - WARNING -  * Debugger is active!
+2026-04-04 16:15:26,337 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 16:15:26,586 - WARNING -  * Debugger is active!
+2026-04-04 16:15:26,591 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 16:18:09,128 - INFO - response: https://duckduckgo.com/?q=paracetamol+medicine+tablet 200
+2026-04-04 16:18:10,452 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracetamol+medicine+tablet&l=us-en&vqd=4-29509072020872501042605491660177207905&p=1&f=%2C%2C%2C%2C%2C 200
+2026-04-04 16:18:10,514 - INFO - 127.0.0.1 - - [04/Apr/2026 16:18:10] "POST /get_image HTTP/1.1" 200 -
+2026-04-04 16:20:59,420 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 16:20:59,492 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 16:21:00,111 - INFO -  * Restarting with stat
+2026-04-04 16:21:00,114 - INFO -  * Restarting with stat
+2026-04-04 16:21:05,168 - WARNING -  * Debugger is active!
+2026-04-04 16:21:05,173 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 16:21:05,174 - WARNING -  * Debugger is active!
+2026-04-04 16:21:05,180 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 16:21:06,215 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 16:21:06,220 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 16:21:06,660 - INFO -  * Restarting with stat
+2026-04-04 16:21:06,686 - INFO -  * Restarting with stat
+2026-04-04 16:21:12,686 - WARNING -  * Debugger is active!
+2026-04-04 16:21:12,690 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 16:21:12,724 - WARNING -  * Debugger is active!
+2026-04-04 16:21:12,727 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 16:21:54,433 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 16:21:54,453 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 16:21:54,866 - INFO -  * Restarting with stat
+2026-04-04 16:21:54,899 - INFO -  * Restarting with stat
+2026-04-04 16:22:00,691 - WARNING -  * Debugger is active!
+2026-04-04 16:22:00,707 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 16:22:00,825 - WARNING -  * Debugger is active!
+2026-04-04 16:22:00,834 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 16:22:14,284 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 16:22:14,289 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 16:22:24,302 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 16:22:24,364 - INFO - 127.0.0.1 - - [04/Apr/2026 16:22:24] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 16:22:26,221 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 16:22:27,439 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671402522910430834151864394125705036&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 16:22:27,439 - WARNING - DDGS failed, falling back to Wikipedia: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671402522910430834151864394125705036&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+2026-04-04 16:22:29,406 - INFO - 127.0.0.1 - - [04/Apr/2026 16:22:29] "[33mPOST /get_image HTTP/1.1[0m" 404 -
+2026-04-04 16:38:50,062 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 16:38:50,249 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 16:38:50,903 - INFO -  * Restarting with stat
+2026-04-04 16:38:51,053 - INFO -  * Restarting with stat
+2026-04-04 16:38:58,345 - WARNING -  * Debugger is active!
+2026-04-04 16:38:58,353 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 16:38:58,486 - WARNING -  * Debugger is active!
+2026-04-04 16:38:58,493 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 16:39:55,336 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 16:39:55,339 - INFO - 127.0.0.1 - - [04/Apr/2026 16:39:55] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 16:39:56,641 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 16:39:57,948 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671360690440575783768874598764671324&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 16:39:57,948 - WARNING - DDGS failed, falling back to Wikipedia: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671360690440575783768874598764671324&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+2026-04-04 16:39:59,964 - INFO - 127.0.0.1 - - [04/Apr/2026 16:39:59] "[33mPOST /get_image HTTP/1.1[0m" 404 -
+2026-04-04 16:50:00,178 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 16:50:00,180 - INFO - 127.0.0.1 - - [04/Apr/2026 16:50:00] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 16:50:00,515 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 16:50:01,357 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671360690440575783768874598764671324&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 16:50:01,358 - WARNING - DDGS failed, falling back to Wikipedia: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671360690440575783768874598764671324&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+2026-04-04 16:50:03,712 - INFO - 127.0.0.1 - - [04/Apr/2026 16:50:03] "[33mPOST /get_image HTTP/1.1[0m" 404 -
+2026-04-04 16:52:01,995 - INFO - medicine_details: paracitamol | Lang: Gujarati
+2026-04-04 16:52:01,997 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 16:52:16,283 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 16:52:16,353 - INFO - 127.0.0.1 - - [04/Apr/2026 16:52:16] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 16:52:16,792 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 16:52:17,694 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671360690440575783768874598764671324&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 16:52:17,694 - WARNING - DDGS failed, falling back to Wikipedia: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67671360690440575783768874598764671324&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+2026-04-04 16:52:20,395 - INFO - 127.0.0.1 - - [04/Apr/2026 16:52:20] "[33mPOST /get_image HTTP/1.1[0m" 404 -
+2026-04-04 16:54:41,904 - INFO - 127.0.0.1 - - [04/Apr/2026 16:54:41] "[35m[1mPOST /nearby_healthcare HTTP/1.1[0m" 500 -
+2026-04-04 16:56:29,507 - INFO - medicine_details: paratitamol | Lang: English
+2026-04-04 16:56:29,510 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 16:56:39,803 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 16:56:39,829 - INFO - 127.0.0.1 - - [04/Apr/2026 16:56:39] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 16:56:40,232 - INFO - response: https://duckduckgo.com/?q=paratitamol+medicine+tablet 200
+2026-04-04 16:56:41,066 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paratitamol+medicine+tablet&l=us-en&vqd=4-122133633090430011064203159554674681580&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 16:56:41,067 - WARNING - DDGS failed, falling back to Wikipedia: https://duckduckgo.com/i.js?o=json&q=paratitamol+medicine+tablet&l=us-en&vqd=4-122133633090430011064203159554674681580&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+2026-04-04 16:56:43,411 - INFO - 127.0.0.1 - - [04/Apr/2026 16:56:43] "[33mPOST /get_image HTTP/1.1[0m" 404 -
+2026-04-04 16:58:06,569 - INFO - 127.0.0.1 - - [04/Apr/2026 16:58:06] "[35m[1mPOST /nearby_healthcare HTTP/1.1[0m" 500 -
+2026-04-04 18:28:01,165 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 18:28:01,185 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 18:28:02,084 - INFO -  * Restarting with stat
+2026-04-04 18:28:02,093 - INFO -  * Restarting with stat
+2026-04-04 18:28:07,957 - WARNING -  * Debugger is active!
+2026-04-04 18:28:07,961 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 18:28:07,961 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 18:28:29,467 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 18:28:29,515 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 18:28:30,716 - INFO -  * Restarting with stat
+2026-04-04 18:28:30,818 - INFO -  * Restarting with stat
+2026-04-04 18:28:37,184 - WARNING -  * Debugger is active!
+2026-04-04 18:28:37,191 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 18:28:37,192 - WARNING -  * Debugger is active!
+2026-04-04 18:28:37,201 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 18:28:45,356 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 18:28:45,361 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 18:28:46,086 - INFO -  * Restarting with stat
+2026-04-04 18:28:46,088 - INFO -  * Restarting with stat
+2026-04-04 18:28:52,342 - WARNING -  * Debugger is active!
+2026-04-04 18:28:52,345 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 18:28:52,439 - WARNING -  * Debugger is active!
+2026-04-04 18:28:52,443 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 18:29:02,639 - ERROR - OSM Fallback error: Expecting value: line 1 column 1 (char 0)
+2026-04-04 18:29:02,642 - INFO - 127.0.0.1 - - [04/Apr/2026 18:29:02] "[35m[1mPOST /nearby_healthcare HTTP/1.1[0m" 500 -
+2026-04-04 19:05:12,184 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 19:05:12,699 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 19:05:14,197 - INFO -  * Restarting with stat
+2026-04-04 19:05:14,404 - INFO -  * Restarting with stat
+2026-04-04 19:05:21,022 - WARNING -  * Debugger is active!
+2026-04-04 19:05:21,026 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 19:05:21,091 - WARNING -  * Debugger is active!
+2026-04-04 19:05:21,096 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 19:07:31,393 - INFO - medicine_details: peracitamol | Lang: English
+2026-04-04 19:07:31,400 - INFO - 127.0.0.1 - - [04/Apr/2026 19:07:31] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 19:07:32,074 - WARNING - DDGS failed, falling back to Wikipedia: https://duckduckgo.com ConnectError: ('error sending request for url (https://duckduckgo.com/?q=peracitamol+medicine+tablet)', 'https://duckduckgo.com/?q=peracitamol+medicine+tablet')
+2026-04-04 19:07:33,104 - ERROR - get_image fallback error: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&titles=peracitamol&prop=pageimages&format=json&pithumbsize=500 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1081)')))
+2026-04-04 19:07:33,105 - INFO - 127.0.0.1 - - [04/Apr/2026 19:07:33] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 19:16:59,397 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 19:16:59,404 - INFO - 127.0.0.1 - - [04/Apr/2026 19:16:59] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 19:17:00,249 - WARNING - DDGS failed, falling back to Wikipedia: https://duckduckgo.com ConnectError: ('error sending request for url (https://duckduckgo.com/?q=paracitamol+medicine+tablet)', 'https://duckduckgo.com/?q=paracitamol+medicine+tablet')
+2026-04-04 19:17:01,207 - ERROR - get_image fallback error: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /w/api.php?action=query&titles=paracitamol&prop=pageimages&format=json&pithumbsize=500 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1081)')))
+2026-04-04 19:17:01,207 - INFO - 127.0.0.1 - - [04/Apr/2026 19:17:01] "[35m[1mPOST /get_image HTTP/1.1[0m" 500 -
+2026-04-04 19:22:25,292 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 19:22:25,304 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 19:22:26,037 - INFO -  * Restarting with stat
+2026-04-04 19:22:26,110 - INFO -  * Restarting with stat
+2026-04-04 19:22:32,767 - WARNING -  * Debugger is active!
+2026-04-04 19:22:32,768 - WARNING -  * Debugger is active!
+2026-04-04 19:22:32,772 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 19:22:32,772 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 21:47:01,432 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 21:47:01,500 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 21:47:02,101 - INFO -  * Restarting with stat
+2026-04-04 21:47:02,222 - INFO -  * Restarting with stat
+2026-04-04 21:47:07,250 - WARNING -  * Debugger is active!
+2026-04-04 21:47:07,255 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 21:47:07,255 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 21:47:32,643 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 21:47:32,701 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\streamlit.py', reloading
+2026-04-04 21:47:33,210 - INFO -  * Restarting with stat
+2026-04-04 21:47:33,214 - INFO -  * Restarting with stat
+2026-04-04 21:47:37,847 - WARNING -  * Debugger is active!
+2026-04-04 21:47:37,853 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 21:47:37,872 - WARNING -  * Debugger is active!
+2026-04-04 21:47:37,878 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 21:49:33,613 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 21:49:34,508 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67670497420380415160370276120186956780&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 21:49:34,508 - WARNING - DDGS failed, falling back to Wikipedia: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67670497420380415160370276120186956780&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+2026-04-04 21:49:37,256 - INFO - 127.0.0.1 - - [04/Apr/2026 21:49:37] "[33mPOST /get_image HTTP/1.1[0m" 404 -
+2026-04-04 21:49:37,279 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 21:49:37,301 - INFO - 127.0.0.1 - - [04/Apr/2026 21:49:37] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 21:49:37,316 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 21:49:48,444 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 21:49:48,487 - INFO - 127.0.0.1 - - [04/Apr/2026 21:49:48] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-04 21:49:48,512 - INFO - 127.0.0.1 - - [04/Apr/2026 21:49:48] "POST /similar_medicine HTTP/1.1" 200 -
+2026-04-04 21:49:48,526 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 21:50:03,846 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 21:50:03,852 - INFO - 127.0.0.1 - - [04/Apr/2026 21:50:03] "POST /medicine_links HTTP/1.1" 200 -
+2026-04-04 21:55:41,772 - ERROR - OSM Fallback error: Expecting value: line 1 column 1 (char 0)
+2026-04-04 21:55:41,773 - INFO - 127.0.0.1 - - [04/Apr/2026 21:55:41] "[35m[1mPOST /nearby_healthcare HTTP/1.1[0m" 500 -
+2026-04-04 22:00:43,948 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 22:00:46,723 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 22:00:46,767 - INFO - 127.0.0.1 - - [04/Apr/2026 22:00:46] "POST /summarize HTTP/1.1" 200 -
+2026-04-04 22:01:13,411 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 22:01:14,887 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 22:01:14,910 - INFO - 127.0.0.1 - - [04/Apr/2026 22:01:14] "POST /summarize HTTP/1.1" 200 -
+2026-04-04 22:01:46,773 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 22:01:58,910 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 22:01:58,957 - INFO - 127.0.0.1 - - [04/Apr/2026 22:01:58] "POST /analyze HTTP/1.1" 200 -
+2026-04-04 22:20:09,505 - INFO - response: https://duckduckgo.com/?q=paracitamol+medicine+tablet 200
+2026-04-04 22:20:10,821 - INFO - response: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67670497420380415160370276120186956780&p=1&f=%2C%2C%2C%2C%2C 403
+2026-04-04 22:20:10,825 - WARNING - DDGS failed, falling back to Wikipedia: https://duckduckgo.com/i.js?o=json&q=paracitamol+medicine+tablet&l=us-en&vqd=4-67670497420380415160370276120186956780&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+2026-04-04 22:20:12,570 - INFO - 127.0.0.1 - - [04/Apr/2026 22:20:12] "[33mPOST /get_image HTTP/1.1[0m" 404 -
+2026-04-04 22:20:12,592 - INFO - medicine_details: paracitamol | Lang: English
+2026-04-04 22:20:12,597 - INFO - 127.0.0.1 - - [04/Apr/2026 22:20:12] "POST /medicine_details HTTP/1.1" 200 -
+2026-04-04 22:20:12,625 - INFO - 127.0.0.1 - - [04/Apr/2026 22:20:12] "POST /ai_explain HTTP/1.1" 200 -
+2026-04-04 22:20:12,648 - INFO - 127.0.0.1 - - [04/Apr/2026 22:20:12] "POST /similar_medicine HTTP/1.1" 200 -
+2026-04-04 22:20:12,663 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-04 22:20:26,565 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-04 22:20:26,581 - INFO - 127.0.0.1 - - [04/Apr/2026 22:20:26] "POST /medicine_links HTTP/1.1" 200 -

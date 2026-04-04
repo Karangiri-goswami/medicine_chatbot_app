@@ -1,84 +1,101 @@
-# Medicine Chatbot & Other AI Tasks
+# 🏥 Medical Care AI - Advanced Medicine Chatbot
 
-This is a medicine chatbot built using Flask, Streamlit and Gemini API.
-It helps in educating people about medicines and also perform other AI tasks.
+<div align="center">
 
-## Features 
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.8+-green?style=for-the-badge&logo=python)
+![Flask](https://img.shields.io/badge/Flask-API_Backend-black?style=for-the-badge&logo=flask)
+![Gemini](https://img.shields.io/badge/Gemini-2.5_Flash-orange?style=for-the-badge)
+![SQLite](https://img.shields.io/badge/SQLite-Database-blue?style=for-the-badge&logo=sqlite)
 
-* system_prompt: Prompt to generate the use and side effects of the medicine
-* ai_explain_prompt: Promot to get a summarize details of the medicine
-* similar_medicine: Prompt to get an alternative medicine details
-* generate_text_prompt: Prompt to generate paragraph
-* summarize_prompt:Prompt to summarize the paragraph
-* analyze_prompt: Prompt to analyze
-* @app.before_request def check_key(): For API key authentication.
+**A highly sophisticated, premium AI chatbot ecosystem for medicine information**
 
-### Logging: 
+</div>
 
-To log each incoming request for tracking. All the files are stored 
-in logs/app.log. Timestamp, Endpoint name and User prompt will be
-returned.
+---
 
-### Limiter:
+## ✨ Features
 
-For controlled access and restricting the number of requests.
+- **🚀 Unified Medicine Dashboard**: Enter a medicine name once and Instantly fetch **Details**, **AI Explanations**, **Alternatives**, and **Pharmacy Links** directly within a multi-tab view perfectly organized.
+- **🖼️ Smart Visuals**: Automatic integration with **DuckDuckGo Image Search** and Wikipedia to fetch precise visual references of the prescribed drugs.
+- **🔊 Text-to-Speech (TTS)**: Built-in voice generation using `gTTS` to read the AI explanation of your medications out loud.
+- **🌍 Multi-Lingual**: Supports complex queries in exactly 6 languages: English, Gujarati, Hindi, Spanish, French, and German.
+- **🏥 Nearby Healthcare Engine**: Auto-detects user boundaries via IP-based Geocoding and surfaces nearby hospitals and pharmacies using **Google Maps Network** with highly reliable **OpenStreetMap (OSM)** failover servers.
+- **⚡ Supercharged Cache DB**: An advanced **SQLite** caching mechanism on the Backend to instantly return responses, massively saving API tokens, while accelerating load speed! Includes a specialized **Admin Dashboard** in the app to visually edit and manipulate cached data using Pandas.
 
-### Error Handlers:
+---
 
-400 Bad Request: When the input format is incorrect.
-401 Unauthorized: When the API key is missing/invalid.
-429 Too Many Requests: When too many requests are sent.
+## 🛠️ Tech Stack
 
-### API KEYS:
+- **Frontend**: Streamlit 
+- **Backend**: Flask
+- **Database**: SQLite3
+- **AI Core**: Google GenAI (`gemini-2.5-flash`)
+- **Modules**: `requests`, `geocoder`, `gTTS`, `duckduckgo-search`, `pandas`
 
-* GEMINI_API_KEY: For accessing Gemini features.
-* SERVER_API_KEY: To authenticate request of API.
+---
 
-## API endpoints
+## 🚀 Quick Start Guide
 
-* /home GET: a welcome page
-* /medicine_details POST: Use and side effect of medicine
-* /ai_explain POST: Dosage, Instructions and timing
-* /similar_medicine: similar medicine name, use and difference
-* /generate_text: To generate a paragraph using a text input
-* /summarize: To summarize the given article
-* /analyze: To analyze and return the intent of the article
+### 1. Install Dependencies
+Make sure you have Python 3.8+ installed. Install the components using:
+```bash
+pip install -r requirements.txt
+```
 
-## Technologies used
+### 2. Configure Environment `.env`
+Create a `.env` file securely inside your project root and configure it:
+```env
+GEMINI_API_KEY=your_gemini_api_key_here
+SERVER_API_KEY=your_secret_key_here
+GOOGLE_MAPS_API_KEY=your_google_maps_key_here # Optional (Has automatic OpenStreetMap fallback)
+```
 
-* Flask
-* Gemini API (gemini-2.5-flash)
-* Streamlit
+### 3. Run the Application Ecosystem
+This application uses a sophisticated standard decoupled paradigm (Client + Server). **You must run BOTH processes in two separate terminals.**
 
-### 1. Medicine details:
+**Terminal 1 (Backend Server):**
+```bash
+python app.py
+```
+> The Flask database & secure AI proxy boots up dynamically at `http://127.0.0.1:5000`.
 
-![alt text](images/medicine_details.png)
+**Terminal 2 (Frontend UI):**
+```bash
+streamlit run streamlit.py
+```
+> The sleek UI automatically launches in your browser (typically `http://localhost:8501`).
 
-### 2. AI explain mode:
+---
 
-![alt text](images/ai_explain.png)
+## 📁 Project Architecture
 
-### 3. Alternative:
+```text
+medicine_chatbot/
+│
+├── app.py                # Heavy-lifting Flask API Endpoint & Cache server
+├── streamlit.py          # Unified Streamlit graphical frontend interface
+├── medicine_cache.db     # Invisible auto-generated blazing fast SQLite DB
+├── requirements.txt      # Strictly defined project dependencies
+├── .env                  # Configured environment keys 
+└── logs/                 # Security logs and diagnostics
+```
 
-![alt text](images/alternative.png)
+---
 
-### 4. Generate Text:
+## 🔒 Security Measures
 
-![alt text](images/generate_text.png)
+- **Decoupled Architecture**: Exposes zero API keys to the browser GUI. 
+- **Internal Cross-Validation**: Flask backend endpoints forcefully apply rate-limiting to prevent web abuse.
+- **Key-Locked Server**: All Streamlit queries require custom internal headers (`X-API-Key`) verified strictly by the local firewall.
+- **Password Auth**: Admin Dashboard cached access protected dynamically via credential vaults.
 
-### 5. Summarize:
+---
 
-![alt text](images/summarize.png)
+## ⚠️ Disclaimer
 
-### 6. Analyze:
+**Important**: This software framework uses Large Language Models designed strictly for informational and experimental purposes and is NOT a replacement for qualified professional medical diagnoses. Always consult a licensed healthcare provider before adapting to specific treatments.
 
-![alt text](images/analyze.png)
+---
 
-### 7. Limit request: When more than 1 request is made within 1 min:
-as generate_text limit is set to (@limiter.limit("1 per minute"))
-
-![alt text](images/limitreq.png)
-
-### 8. When request is made with incorrect API key:
-
-![alt text](images/incorrectkey.png)
+**Built beautifully for Advanced Medical Query Solving. Happy Coding! 🚀**

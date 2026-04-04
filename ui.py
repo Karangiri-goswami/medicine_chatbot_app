@@ -192,19 +192,17 @@ div[data-testid="stAlert"] {
 """, unsafe_allow_html=True)
 
 # ==================== NAVBAR ====================
-import urllib.parse
 def nav_item(name):
     active_class = "active" if page == name else ""
-    current_med = st.query_params.get("med", "")
-    href_link = f"?page={urllib.parse.quote(name)}"
-    if current_med:
-        href_link += f"&med={urllib.parse.quote(current_med)}"
-    return f'<a class="nav-item {active_class}" href="{href_link}" target="_self">{name}</a>'
+    return f'<a class="nav-item {active_class}" href="?page={name}" target="_self">{name}</a>'
 
 st.markdown(f"""
 <div class="navbar">
 {nav_item("Home")}
 {nav_item("Medicine Info")}
+{nav_item("AI Explain")}
+{nav_item("Alternatives")}
+{nav_item("Pharmacy Links")}
 {nav_item("Generate Text")}
 {nav_item("Summarize")}
 {nav_item("Analyze")}
@@ -263,12 +261,10 @@ def text_to_speech(text):
         # Generate perfect local MP3 using Google TTS
         clean = text.replace('\n', ' ').replace('*', '').strip()
         tts = gTTS(text=clean, lang=code, slow=False)
+        tts.save("tts_audio.mp3")
         
-        import io
-        fp = io.BytesIO()
-        tts.write_to_fp(fp)
-        fp.seek(0)
-        audio_bytes = fp.read()
+        with open("tts_audio.mp3", "rb") as f:
+            audio_bytes = f.read()
             
         b64 = base64.b64encode(audio_bytes).decode()
         
@@ -285,6 +281,8 @@ def text_to_speech(text):
         </div>
         '''
         st.markdown(audio_html, unsafe_allow_html=True)
+        if os.path.exists("tts_audio.mp3"):
+            os.remove("tts_audio.mp3")
     except Exception as e:
         st.error(f"TTS Error: {e}")
 
@@ -302,12 +300,12 @@ def display_ai_response(text):
     if "[SPLIT]" in text:
         parts = [p.strip() for p in text.split("[SPLIT]") if p.strip()]
         if len(parts) >= 1:
-            st.markdown(parts[0])
+            st.info(parts[0])
         if len(parts) > 1:
             with st.expander("📖 Read More (Deep Dive)"):
                 st.markdown("\n\n".join(parts[1:]))
     else:
-        st.markdown(text)
+        st.info(text)
 
 
 # ==================== HOME ====================
@@ -350,76 +348,130 @@ if page == "Home":
 # ==================== MEDICINE ====================
 elif page == "Medicine Info":
 
-    st.subheader("Comprehensive Medicine Dashboard")
+    st.subheader("Medicine Details")
 
-    current_med = st.query_params.get("med", "")
-    med = st.text_input("Enter Medicine Name", value=current_med)
-    if med != current_med:
-        st.query_params["med"] = med
-        st.rerun()
+    med = st.text_input("Enter Medicine Name")
 
-    if st.button("Generate Comprehensive Report"): 
+    if st.button("Search"): 
         if med:
-            with st.spinner("Analyzing and fetching all data... This may take a few seconds."):
-                
-                # Fetch visual reference
-                img_url = "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500"
+            with st.spinner("Fetching..."):
                 try:
-                    img_response = requests.post(f"{BASE_URL}/get_image", json={"medicine_name": med}, headers=headers, timeout=8)
-                    if img_response.status_code == 200:
-                        fetched_url = img_response.json().get("image_url")
-                        if fetched_url:
-                            img_url = fetched_url
-                except Exception:
-                    pass
-                    
-                st.image(img_url, width=350, caption=f"Reference Visual for {med}")
-                
-                # Fetch all data sequentially
-                res_details = requests.post(f"{BASE_URL}/medicine_details", json={"language": selected_lang, "user_prompt": med}, headers=headers).json()
-                res_explain = requests.post(f"{BASE_URL}/ai_explain", json={"language": selected_lang, "user_prompt": med}, headers=headers).json()
-                res_alt = requests.post(f"{BASE_URL}/similar_medicine", json={"language": selected_lang, "user_prompt": med}, headers=headers).json()
-                res_links = requests.post(f"{BASE_URL}/medicine_links", json={"language": selected_lang, "user_prompt": med}, headers=headers).json()
-
-                # Build Tabs
-                tab1, tab2, tab3, tab4 = st.tabs(["📋 Details", "🧠 AI Explain", "🔄 Alternatives", "🛒 Pharmacy Links"])
-
-                with tab1:
-                    if res_details.get("status") == "success":
-                        display_ai_response(res_details.get("reply"))
-                    else:
-                        st.error("Error fetching medicine details.")
-                
-                with tab2:
-                    if res_explain.get("status") == "success":
-                        display_ai_response(res_explain.get("reply"))
-                    else:
-                        st.error("Error fetching AI explanation.")
-                
-                with tab3:
-                    if res_alt.get("status") == "success":
-                        display_ai_response(res_alt.get("reply"))
-                    else:
-                        st.error("Error fetching alternatives.")
+                    response = requests.post(
+                        f"{BASE_URL}/medicine_details",
+                        json={"language": selected_lang, "user_prompt": med},
+                        headers=headers
+                    )
+                    if response.status_code == 200:
+                        st.success("Result Ready")
                         
-                with tab4:
-                    if res_links.get("status") == "success":
-                        st.markdown("### 🤖 Tips")
-                        display_ai_response(res_links.get("ai_suggestions"))
-
-                        col1, col2 = st.columns(2)
-                        with col1:
-                            st.markdown("### 🛒 Online Pharmacies")
-                            for item in res_links.get("links", {}).get("online_pharmacies", []):
-                                st.markdown(f"- [{item['name']}]({item['url']})")
-                        with col2:
-                            st.markdown("### 📘 Medical Info")
-                            for item in res_links.get("links", {}).get("medical_info", []):
-                                st.markdown(f"- [{item['name']}]({item['url']})")
+                        # Image fetching logic with robust placeholder fallback
+                        try:
+                            img_response = requests.post(f"{BASE_URL}/get_image", json={"medicine_name": med}, headers=headers, timeout=8)
+                            if img_response.status_code == 200:
+                                img_url = img_response.json().get("image_url")
+                                if img_url:
+                                    st.image(img_url, width=350, caption=f"Reference Visual for {med}")
+                                else:
+                                    st.image("https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500", width=350, caption="Placeholder Reference")
+                            else:
+                                st.image("https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500", width=350, caption="Placeholder Reference")
+                        except Exception:
+                            st.image("https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500", width=350, caption="Placeholder Reference")
+                            
+                        display_ai_response(response.json().get("reply"))
                     else:
-                        st.error("Error fetching pharmacy links.")
+                        st.error("Error fetching data")
+                except Exception as e:
+                    import traceback
+                    st.error(f"Render Error: {e}")
+                    st.code(traceback.format_exc())
         else:
             st.warning("Enter medicine name")
+
+elif page == "AI Explain":
+
+    st.subheader("AI Explain Medicine")
+
+    med = st.text_input("Enter Medicine Name")
+
+    if st.button("Explain"):
+        if med:
+            try:
+                response = requests.post(
+                    f"{BASE_URL}/ai_explain",
+                    json={"language": selected_lang, "user_prompt": med},
+                    headers=headers
+                )
+
+                if response.status_code == 200:
+                    st.success("Explanation Ready")
+                    display_ai_response(response.json().get("reply"))
+                else:
+                    st.error(response.text)
+
+            except Exception as e:
+                st.error(str(e))
+
+elif page == "Alternatives":
+
+    st.subheader("Find Alternative Medicines")
+
+    med = st.text_input("Enter Medicine Name")
+
+    if st.button("Find Alternatives"):
+        if med:
+            try:
+                response = requests.post(
+                    f"{BASE_URL}/similar_medicine",
+                    json={"language": selected_lang, "user_prompt": med},
+                    headers=headers
+                )
+
+                if response.status_code == 200:
+                    st.success("Alternatives Found")
+                    display_ai_response(response.json().get("reply"))
+                else:
+                    st.error(response.text)
+
+            except Exception as e:
+                st.error(str(e))
+
+elif page == "Pharmacy Links":
+
+    st.subheader("Medicine Purchase Links")
+
+    med = st.text_input("Enter Medicine Name")
+
+    if st.button("Get Links"):
+        if med:
+            try:
+                response = requests.post(
+                    f"{BASE_URL}/medicine_links",
+                    json={"language": selected_lang, "user_prompt": med},
+                    headers=headers
+                )
+
+                if response.status_code == 200:
+                    data = response.json()
+
+                    st.success("Links Generated")
+
+                    st.markdown("### 🤖 AI Suggestions")
+                    display_ai_response(data.get("ai_suggestions"))
+
+                    st.markdown("### 🛒 Online Pharmacies")
+                    for item in data["links"]["online_pharmacies"]:
+                        st.markdown(f"- [{item['name']}]({item['url']})")
+
+                    st.markdown("### 📘 Medical Info")
+                    for item in data["links"]["medical_info"]:
+                        st.markdown(f"- [{item['name']}]({item['url']})")
+
+                else:
+                    st.error(response.text)
+
+            except Exception as e:
+                st.error(str(e))
 
 elif page == "Generate Text":
 
@@ -507,45 +559,42 @@ elif page == "Nearby Healthcare":
     if st.button("Use My Location 📍"):
 
         g = geocoder.ip('me')
-        if not getattr(g, 'latlng', None):
-            st.error("Could not detect your exact location. Please try again or check your network.")
-        else:
-            lat, lng = g.latlng
+        lat, lng = g.latlng
 
-            st.success(f"Detected Location: {lat}, {lng}")
+        st.success(f"Detected Location: {lat}, {lng}")
 
-            try:
-                response = requests.post(
-                    f"{BASE_URL}/nearby_healthcare",
-                    json={
-                        "location": f"{lat},{lng}",   # 🔥 IMPORTANT
-                        "type": place_type
-                    },
-                    headers=headers
-                )
+        try:
+            response = requests.post(
+                f"{BASE_URL}/nearby_healthcare",
+                json={
+                    "location": f"{lat},{lng}",   # 🔥 IMPORTANT
+                    "type": place_type
+                },
+                headers=headers
+            )
 
-                if response.status_code == 200:
-                    data = response.json()
+            if response.status_code == 200:
+                data = response.json()
 
-                    st.success("Nearby places found!")
+                st.success("Nearby places found!")
 
-                    for place in data.get("places", []):
-                        maps_url = place.get("maps_url", f"https://www.google.com/maps/search/?api=1&query={place['name']}")
+                for place in data["places"]:
+                    maps_url = f"https://www.google.com/maps/search/?api=1&query={place['name']}"
 
-                        st.markdown(f"""
-                        **{place['name']}**  
-                        📍 {place['address']}  
-                        ⭐ Rating: {place['rating']}  
-                        [Open in Maps]({maps_url})
-                        """)
-                        st.divider()
+                    st.markdown(f"""
+                    **{place['name']}**  
+                    📍 {place['address']}  
+                    ⭐ Rating: {place['rating']}  
+                    [Open in Maps]({maps_url})
+                    """)
+                    st.divider()
 
-                else:
-                    st.error(response.text)
-                    
+            else:
+                st.error(response.text)
+                
 
-            except Exception as e:
-                st.error(str(e))    
+        except Exception as e:
+            st.error(str(e))    
         
 elif page == "Admin Dashboard":
 
