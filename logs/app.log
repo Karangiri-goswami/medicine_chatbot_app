@@ -2125,3 +2125,27 @@
 2026-04-05 00:10:01,448 - INFO -  * Debugger PIN: 101-525-989
 2026-04-05 00:10:04,494 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
 2026-04-05 00:10:04,495 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-05 00:10:04,952 - INFO -  * Restarting with stat
+2026-04-05 00:10:04,958 - INFO -  * Restarting with stat
+2026-04-05 00:10:10,084 - WARNING -  * Debugger is active!
+2026-04-05 00:10:10,089 - INFO -  * Debugger PIN: 101-525-989
+2026-04-05 00:10:10,099 - WARNING -  * Debugger is active!
+2026-04-05 00:10:10,103 - INFO -  * Debugger PIN: 101-525-989
+2026-04-05 00:22:32,152 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-05 00:22:32,323 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-05 00:22:32,658 - INFO -  * Restarting with stat
+2026-04-05 00:22:33,095 - INFO -  * Restarting with stat
+2026-04-05 00:22:38,639 - WARNING -  * Debugger is active!
+2026-04-05 00:22:38,645 - INFO -  * Debugger PIN: 101-525-989
+2026-04-05 00:22:38,666 - WARNING -  * Debugger is active!
+2026-04-05 00:22:38,671 - INFO -  * Debugger PIN: 101-525-989
+2026-04-05 00:22:44,711 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-05 00:22:44,749 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-05 00:22:45,268 - INFO -  * Restarting with stat
+2026-04-05 00:22:45,304 - INFO -  * Restarting with stat
+2026-04-05 00:22:50,624 - WARNING -  * Debugger is active!
+2026-04-05 00:22:50,629 - INFO -  * Debugger PIN: 101-525-989
+2026-04-05 00:22:50,639 - WARNING -  * Debugger is active!
+2026-04-05 00:22:50,642 - INFO -  * Debugger PIN: 101-525-989
+2026-04-05 00:22:56,696 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-05 00:22:56,708 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading

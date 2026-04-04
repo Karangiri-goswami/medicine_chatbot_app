@@ -15,7 +15,9 @@ DB_PATH = os.path.join(tempfile.gettempdir(), 'medicine_cache.db') if os.environ
 try:
     from duckduckgo_search import DDGS
     DDGS_AVAILABLE = True
-except ImportError:
+except Exception as e:
+    import logging
+    logging.error(f"DuckDuckGo Search import failed: {e}")
     DDGS_AVAILABLE = False
 
 load_dotenv()
@@ -42,11 +44,13 @@ logger = logging.getLogger(__name__)
 # ==================== API KEYS ====================
 SERVER_API_KEY = os.getenv("SERVER_API_KEY", "your-secret-api-key-here")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-if not GEMINI_API_KEY:
-    raise ValueError("GEMINI_API_KEY is missing in .env file")
 
 # ==================== GEMINI CLIENT ====================
-client = genai.Client(api_key=GEMINI_API_KEY)
+try:
+    client = genai.Client(api_key=GEMINI_API_KEY) if GEMINI_API_KEY else None
+except Exception as e:
+    logger.error(f"GenAI Client Error: {e}")
+    client = None
 
 # ==================== RATE LIMIT ====================
 # FIX: In-memory rate limiter (works for single-process; swap for Redis in multi-worker prod)
@@ -114,6 +118,8 @@ Use rich markdown, elegant tables, and bullet points. Never break this structure
 
 # ==================== GEMINI FUNCTION ====================
 def ask_gemini(prompt):
+    if not client:
+        return "ERROR: GEMINI_API_KEY is missing or invalid on the Vercel Server."
     try:
         response = client.models.generate_content(
             model='gemini-2.5-flash',
