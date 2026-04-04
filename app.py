@@ -205,6 +205,14 @@ def upsert_medicine_reply(feature, medicine_name, language, reply):
 
 # ==================== ROUTES ====================
 
+@app.route("/", methods=["GET"])
+def index():
+    return jsonify({
+        "status": "online",
+        "message": "Medicine Chatbot API Backend is running perfectly on Vercel!",
+        "endpoints": ["/medicine_details", "/ai_explain", "/similar_medicine", "/get_image", "/nearby_healthcare"]
+    }), 200
+
 @app.route("/medicine_details", methods=["POST"])
 @check_api_key
 @rate_limit()
