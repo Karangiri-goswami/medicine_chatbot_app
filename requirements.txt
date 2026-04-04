@@ -8,3 +8,4 @@ geocoder
 duckduckgo-search
 gTTS
 pandas
+gunicorn
