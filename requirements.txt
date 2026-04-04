@@ -1,11 +1,6 @@
-    Flask
-    flask-cors
-    google-genai
-    streamlit
-    python-dotenv
-    requests
-    geocoder
-    duckduckgo-search
-    gTTS
-    pandas
-    gunicorn
+Flask
+flask-cors
+google-genai
+python-dotenv
+requests
+duckduckgo-search
