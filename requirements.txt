@@ -3,4 +3,3 @@ flask-cors
 google-genai
 python-dotenv
 requests
-duckduckgo-search

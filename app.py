@@ -12,13 +12,7 @@ import tempfile
 BACKEND_URL = os.getenv("BACKEND_URL", "https://medicine-chatbot-app.vercel.app/")
 DB_PATH = os.path.join(tempfile.gettempdir(), 'medicine_cache.db') if os.environ.get("VERCEL") else 'medicine_cache.db'
 
-try:
-    from duckduckgo_search import DDGS
-    DDGS_AVAILABLE = True
-except Exception as e:
-    import logging
-    logging.error(f"DuckDuckGo Search import failed: {e}")
-    DDGS_AVAILABLE = False
+DDGS_AVAILABLE = False
 
 load_dotenv()
 
