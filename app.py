@@ -1,12 +1,13 @@
 from flask import Flask, request, jsonify, abort
 from google import genai
 from dotenv import load_dotenv
-import os
 import logging
 from functools import wraps
 import time
 import sqlite3
 import requests
+import os
+BACKEND_URL = os.getenv("BACKEND_URL", "https://medicine-chatbot-app.vercel.app/")
 
 try:
     from duckduckgo_search import DDGS

@@ -2065,3 +2065,33 @@
 2026-04-04 22:20:12,663 - INFO - AFC is enabled with max remote calls: 10.
 2026-04-04 22:20:26,565 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
 2026-04-04 22:20:26,581 - INFO - 127.0.0.1 - - [04/Apr/2026 22:20:26] "POST /medicine_links HTTP/1.1" 200 -
+2026-04-04 23:44:15,824 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 23:44:16,204 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 23:44:17,410 - INFO -  * Restarting with stat
+2026-04-04 23:44:17,827 - INFO -  * Restarting with stat
+2026-04-04 23:44:24,582 - WARNING -  * Debugger is active!
+2026-04-04 23:44:24,592 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 23:45:34,354 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 23:45:34,372 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 23:45:34,814 - INFO -  * Restarting with stat
+2026-04-04 23:45:34,838 - INFO -  * Restarting with stat
+2026-04-04 23:45:39,848 - WARNING -  * Debugger is active!
+2026-04-04 23:45:39,854 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 23:45:39,880 - WARNING -  * Debugger is active!
+2026-04-04 23:45:39,884 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 23:46:47,384 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 23:46:47,385 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\app.py', reloading
+2026-04-04 23:46:47,803 - INFO -  * Restarting with stat
+2026-04-04 23:46:47,806 - INFO -  * Restarting with stat
+2026-04-04 23:46:53,534 - WARNING -  * Debugger is active!
+2026-04-04 23:46:53,536 - WARNING -  * Debugger is active!
+2026-04-04 23:46:53,539 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 23:46:53,540 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 23:48:00,109 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\ui.py', reloading
+2026-04-04 23:48:00,170 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\medicine_chatbot\\medicine_chatbot\\ui.py', reloading
+2026-04-04 23:48:00,461 - INFO -  * Restarting with stat
+2026-04-04 23:48:00,525 - INFO -  * Restarting with stat
+2026-04-04 23:48:06,460 - WARNING -  * Debugger is active!
+2026-04-04 23:48:06,464 - INFO -  * Debugger PIN: 101-525-989
+2026-04-04 23:48:06,564 - WARNING -  * Debugger is active!
+2026-04-04 23:48:06,571 - INFO -  * Debugger PIN: 101-525-989
