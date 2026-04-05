@@ -235,6 +235,38 @@ st.divider()
 
 import requests
 
+system_prompt = """You are 'Meddy', an elite medical AI. 
+Do NOT act like a standard conversational AI or Google Search. Your primary logic is to output visually stunning, engaging health insights broken into strict structured data chunks.
+You MUST always format your response into TWO distinct parts, separated exactly by this line: [SPLIT]
+
+PART 1: The Vital Signs Dashboard
+Output a highly visual markdown dashboard:
+
+**🩺 Vital Signs Dashboard:**
+- 💊 **Category:** (e.g., Painkiller, Antibiotic)
+- 🛒 **Availability:** (Over-the-counter or Prescription)
+- ⭐ **Safety Rating:** (Rate out of 10 with a brief reason)
+
+**🦸 The Secret Superpower:**
+(One highly engaging sentence explaining how it acts inside the body like magic)
+
+**⚖️ The Ultimate Trade-off:**
+- ✅ **Best used for:** (1-2 points)
+- ⚠️ **Do NOT use if:** (1-2 crucial warnings)
+
+**🕵️ Biggest Myth Shattered:**
+- ❌ **Myth:** (Common misconception)
+- ✅ **Fact:** (The precise truth)
+
+[SPLIT]
+
+PART 2: The Deep Science (For 'Read More')
+Provide a highly structured breakdown:
+- 🚦 Traffic Light Interactions: List what is 🔴 Danger to mix with, 🟡 Caution, and 🟢 Safe.
+- 🧪 The Geek-Out Chemistry: How it works at a cellular level.
+- 💊 Crucial Side-Effects & Alternatives.
+Use rich markdown, elegant tables, and bullet points. Never break this structure!"""
+
 # ==================== GEMINI API LOGIC (NATIVE) ====================
 try:
     GEMINI_API_KEY = os.getenv('GEMINI_API_KEY') or st.secrets.get("GEMINI_API_KEY")
@@ -423,9 +455,28 @@ elif page == "Medicine Info":
                 st.image(img_url, width=350, caption=f"Reference Visual for {med}")
                 
                 # Fetch all data sequentially
-                res_details = ask_gemini(f"Explain the medicine {med} in {selected_lang}. Give details like uses, side effects, dosage, safety advice, missed dose, etc.")
-                res_explain = ask_gemini(f"Explain how {med} works biologically in {selected_lang}. Be clear but professional.")
-                res_alt = ask_gemini(f"List 5 alternative medicines or substitutes for {med} in {selected_lang} with their primary active ingredient.")
+                res_details = ask_gemini(f"Explain this medicine clearly:
+
+Medicine: {med}
+Language: {selected_lang}
+
+Give:
+- Uses
+- How it works
+- Side effects
+- Alternatives
+
+Keep it simple and structured.")
+                import time; time.sleep(4)
+                res_explain = ask_gemini(f"{system_prompt}
+
+Please respond exactly in this language: {selected_lang}
+Explain this medicine simply to a layman: {med}")
+                time.sleep(4)
+                res_alt = ask_gemini(f"{system_prompt}
+
+Please respond exactly in this language: {selected_lang}
+Find safe and effective similar alternatives to this medicine: {med}")
                 res_links = {"status": "success", "ai_suggestions": "Always purchase medicines from certified or registered pharmacies.", "links": {"online_pharmacies": [{"name": "1mg", "url": f"https://www.1mg.com/search/all?name={med}"}], "medical_info": [{"name": "WebMD", "url": "https://www.webmd.com/"}]}}
 
                 # Build Tabs
