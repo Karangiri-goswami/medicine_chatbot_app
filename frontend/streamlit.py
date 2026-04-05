@@ -231,7 +231,7 @@ st.divider()
 
 # ==================== CONFIG ====================
 API_KEY = os.getenv("SERVER_API_KEY", "your-secret-api-key-here")
-BASE_URL = "http://127.0.0.1:5000"
+BASE_URL = "https://medicine-chatbot-20ivft7ft-karangiri-goswamis-projects.vercel.app"
 
 headers = {
     "X-API-Key": API_KEY,
