@@ -236,7 +236,10 @@ st.divider()
 import requests
 
 # ==================== GEMINI API LOGIC (NATIVE) ====================
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
+try:
+    GEMINI_API_KEY = os.getenv('GEMINI_API_KEY') or st.secrets.get("GEMINI_API_KEY")
+except Exception:
+    GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
 
 def ask_gemini(prompt_text):
@@ -432,19 +435,19 @@ elif page == "Medicine Info":
                     if res_details.get("status") == "success":
                         display_ai_response(res_details.get("reply"))
                     else:
-                        st.error("Error fetching medicine details.")
+                        st.error(f"Error fetching medicine details: {res_details.get('reply')}")
                 
                 with tab2:
                     if res_explain.get("status") == "success":
                         display_ai_response(res_explain.get("reply"))
                     else:
-                        st.error("Error fetching AI explanation.")
+                        st.error(f"Error fetching AI explanation: {res_explain.get('reply')}")
                 
                 with tab3:
                     if res_alt.get("status") == "success":
                         display_ai_response(res_alt.get("reply"))
                     else:
-                        st.error("Error fetching alternatives.")
+                        st.error(f"Error fetching alternatives: {res_alt.get('reply')}")
                         
                 with tab4:
                     if res_links.get("status") == "success":
