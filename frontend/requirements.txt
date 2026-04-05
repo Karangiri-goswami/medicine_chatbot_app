@@ -2,3 +2,5 @@ streamlit
 geocoder
 gTTS
 pandas
+python-dotenv
+requests
