@@ -9,7 +9,7 @@ import os
 import tempfile
 
 BACKEND_URL = os.getenv("BACKEND_URL", "https://medicine-chatbot-app.vercel.app/")
-DB_PATH = os.path.join(tempfile.gettempdir(), 'medicine_cache.db') if os.environ.get("VERCEL") else 'medicine_cache.db'
+DB_PATH = "/tmp/medicine_cache.db" if os.path.exists("/tmp") else "medicine_cache.db"
 
 DDGS_AVAILABLE = False
 
@@ -18,20 +18,12 @@ load_dotenv()
 app = Flask(__name__)
 
 # ==================== LOGGING ====================
-if os.environ.get("VERCEL"):
-    import sys
-    logging.basicConfig(
-        stream=sys.stdout,
-        level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(message)s'
-    )
-else:
-    os.makedirs('logs', exist_ok=True)
-    logging.basicConfig(
-        filename='logs/app.log',
-        level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(message)s'
-    )
+import sys
+logging.basicConfig(
+    stream=sys.stdout,
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 logger = logging.getLogger(__name__)
 
 # ==================== API KEYS ====================
@@ -166,7 +158,7 @@ def init_db():
     except Exception as e:
         logger.error(f"Error initializing DB: {e}")
 
-init_db()
+# init_db() global removed
 
 
 def get_medicine_reply(feature, medicine_name, language):
@@ -216,6 +208,7 @@ def index():
 @check_api_key
 @rate_limit()
 def medicine_details():
+    init_db()
     try:
         data = request.get_json()
         user_prompt = data.get("user_prompt")
@@ -256,6 +249,7 @@ Keep it simple and structured."""
 @check_api_key
 @rate_limit()
 def ai_explain():
+    init_db()
     data = request.get_json()
     user_prompt = data.get("user_prompt", "")
     language = data.get("language", "English")
@@ -275,6 +269,7 @@ def ai_explain():
 @check_api_key
 @rate_limit()
 def similar_medicine():
+    init_db()
     data = request.get_json()
     user_prompt = data.get("user_prompt", "")
     language = data.get("language", "English")
@@ -319,6 +314,7 @@ def medicine_links():
 @check_api_key
 @rate_limit()
 def generate_text():
+    init_db()
     data = request.get_json()
     user_prompt = data.get("user_prompt", "")
     language = data.get("language", "English")
@@ -338,6 +334,7 @@ def generate_text():
 @check_api_key
 @rate_limit()
 def summarize():
+    init_db()
     data = request.get_json()
     user_prompt = data.get("user_prompt", "")
     language = data.get("language", "English")
@@ -356,6 +353,7 @@ def summarize():
 @check_api_key
 @rate_limit()
 def analyze():
+    init_db()
     data = request.get_json()
     user_prompt = data.get("user_prompt", "")
     language = data.get("language", "English")
