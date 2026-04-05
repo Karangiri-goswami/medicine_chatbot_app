@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 import logging
 from functools import wraps
 import time
-import sqlite3
 import requests
 import os
 import tempfile
@@ -162,6 +161,8 @@ def init_db():
 
 
 def get_medicine_reply(feature, medicine_name, language):
+    return None
+def _ignore_get_medicine_reply(feature, medicine_name, language):
     try:
         conn = sqlite3.connect(DB_PATH, check_same_thread=False)
         c = conn.cursor()
@@ -178,6 +179,8 @@ def get_medicine_reply(feature, medicine_name, language):
 
 
 def upsert_medicine_reply(feature, medicine_name, language, reply):
+    pass
+def _ignore_upsert(feature, medicine_name, language, reply):
     try:
         conn = sqlite3.connect(DB_PATH, check_same_thread=False)
         c = conn.cursor()
