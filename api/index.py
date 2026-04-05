@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify, abort
-from google import genai
 from dotenv import load_dotenv
 import logging
 from functools import wraps
@@ -39,12 +38,9 @@ logger = logging.getLogger(__name__)
 SERVER_API_KEY = os.getenv("SERVER_API_KEY", "your-secret-api-key-here")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
-# ==================== GEMINI CLIENT ====================
-try:
-    client = genai.Client(api_key=GEMINI_API_KEY) if GEMINI_API_KEY else None
-except Exception as e:
-    logger.error(f"GenAI Client Error: {e}")
-    client = None
+# ==================== GEMINI CLIENT (REST API) ====================
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+# Using requests directly instead of GenAI SDK to avoid OS Segfaults/Lambda size issues.
 
 # ==================== RATE LIMIT ====================
 # FIX: In-memory rate limiter (works for single-process; swap for Redis in multi-worker prod)
@@ -112,20 +108,29 @@ Use rich markdown, elegant tables, and bullet points. Never break this structure
 
 # ==================== GEMINI FUNCTION ====================
 def ask_gemini(prompt):
-    if not client:
+    if not GEMINI_API_KEY:
         return "ERROR: GEMINI_API_KEY is missing or invalid on the Vercel Server."
     try:
-        response = client.models.generate_content(
-            model='gemini-2.5-flash',
-            contents=prompt
-        )
-        if response and response.text:
-            return response.text.strip()
-        logger.warning("Empty response from Gemini")
-        return "Empty response from AI"
+        payload = {
+            "contents": [
+                {"role": "user", "parts": [{"text": prompt}]}
+            ]
+        }
+        res = requests.post(f"{GEMINI_API_URL}?key={GEMINI_API_KEY}", json=payload, headers={'Content-Type': 'application/json'}, timeout=20)
+        if res.status_code == 200:
+            result = res.json()
+            try:
+                answer = result.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text', '')
+                return answer.strip() if answer else "Empty response from AI"
+            except (IndexError, KeyError):
+                logger.error(f"Failed to parse Gemini response: {result}")
+                return "ERROR: Malformed AI response structure."
+        else:
+            logger.error(f"Gemini API Error: {res.status_code} - {res.text}")
+            return f"Gemini API Error: {res.status_code}"
     except Exception as e:
-        logger.error(f"Gemini error: {str(e)}")
-        return f"ERROR: {str(e)}"
+        logger.error(f"Gemini API Exception: {e}")
+        return f"ERROR: Failed to connect to Gemini API. {str(e)}"
 
 # ==================== DATABASE ====================
 def init_db():
@@ -505,4 +510,4 @@ def nearby_healthcare():
 
 # ==================== RUN ====================
 if __name__ == "__main__":
-    app.run(debug=True, host="127.0.0.1", port=5000)
+    app.run(debug=True, host="0.0.0.0", port=5000)
